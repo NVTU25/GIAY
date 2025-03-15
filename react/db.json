@@ -1,0 +1,30 @@
+{
+  "categorys": [
+    {
+      "nameCategory": "Giày adidas",
+      "imageCategory": "https://i.pinimg.com/736x/c4/57/91/c457912ca5ec78b64beb6f276d39a899.jpg",
+      "id": 1
+    },
+    {
+      "nameCategory": "giày đá bóng ",
+      "imageCategory": "https://i.pinimg.com/736x/e1/0e/c1/e10ec1279d834c38b63ccf58d3fcf43e.jpg",
+      "id": 2
+    },
+    {
+      "nameCategory": "Eckige Töpfe update",
+      "imageCategory": "https://tse2.mm.bing.net/th?id=OIP.QPRCqXQQbbObtVcPgRIt3wAAAA&pid=Api&P=0&h=180",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "nameProduct": "giày đá bóng",
+      "priceProduct": "2000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-run-swift-3-nam-xanh-xam-01-800x800.jpg",
+      "discription": "mô tả sản phẩm đá bóng",
+      "shortDescription": "mô tả ngắn sản phẩm",
+      "categoryId": "2",
+      "id": 1
+    }
+  ]
+}

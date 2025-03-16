@@ -11,6 +11,7 @@ import Updatecategory from "./components/updatecategory";
 import AddProduct from "./components/addproduct";
 import Listproduct from "./components/listproducts";
 import UpdateProduct from "./components/updateproduct";
+import ClientLayout from "./layout/client";
 
 
 
@@ -25,7 +26,9 @@ function App() {
       {path: 'listProduct', element:<Listproduct/>},
       {path: 'updateProduct/:id', element:<UpdateProduct/>},
      ]},
-     
+     {path: '/', element: <ClientLayout/>, children: [
+
+     ]}
   ]);
   return (
     <>

@@ -58,7 +58,7 @@ const Listproduct = () => {
                         <td>{item.id}</td>
                         <td>{item.nameProduct}</td>
                         <td className="">
-                            <img className="w-[120px] mx-auto rounded" src={item.imageProduct} alt="" />
+                            <img className="w-[120px] mx-auto rounded" src={item.imageProduct.split(',')[0]} alt="" />
                         </td>
                         <td>{item.priceProduct}</td>
                         <td>{item.categoryId}</td>

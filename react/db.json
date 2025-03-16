@@ -6,25 +6,168 @@
       "id": 1
     },
     {
-      "nameCategory": "giày đá bóng ",
+      "nameCategory": "Giày đá bóng ",
       "imageCategory": "https://i.pinimg.com/736x/e1/0e/c1/e10ec1279d834c38b63ccf58d3fcf43e.jpg",
       "id": 2
     },
     {
-      "nameCategory": "Eckige Töpfe update",
-      "imageCategory": "https://tse2.mm.bing.net/th?id=OIP.QPRCqXQQbbObtVcPgRIt3wAAAA&pid=Api&P=0&h=180",
+      "nameCategory": "Giày Nike",
+      "imageCategory": "https://i.pinimg.com/736x/e7/65/04/e7650458fe434cd647eafb289a569fe2.jpg",
       "id": 3
+    },
+    {
+      "nameCategory": "Giày Puma",
+      "imageCategory": "https://i.pinimg.com/736x/cb/a4/5c/cba45c297d76265b0f0b60ebd5d967bd.jpg",
+      "id": 4
+    },
+    {
+      "nameCategory": "Giày lacoste ",
+      "imageCategory": "https://i.pinimg.com/736x/2c/5f/bd/2c5fbdbe4510b960785022af500dfdc0.jpg",
+      "id": 5
+    },
+    {
+      "nameCategory": "Giày Asics",
+      "imageCategory": "https://i.pinimg.com/736x/37/1f/20/371f20c81bc1d31cf5ab3c6f3fa746fd.jpg",
+      "id": 6
+    },
+    {
+      "nameCategory": "Giày Jordan",
+      "imageCategory": "https://i.pinimg.com/736x/42/48/ed/4248ed945c7ae125411a27e0bf378143.jpg",
+      "id": 7
     }
   ],
   "products": [
     {
-      "nameProduct": "giày đá bóng",
-      "priceProduct": "2000",
-      "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-run-swift-3-nam-xanh-xam-01-800x800.jpg",
-      "discription": "mô tả sản phẩm đá bóng",
-      "shortDescription": "mô tả ngắn sản phẩm",
-      "categoryId": "2",
-      "id": 1
+      "nameProduct": "Giày Adidas Runfalcon 5 Nam - Trắng",
+      "priceProduct": "1690000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/adidas/giay-adidas-runfalcon-5-nam-trang-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/adidas/giay-adidas-runfalcon-5-nam-trang-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/adidas/giay-adidas-runfalcon-5-nam-trang-03-200x200.jpg,https://myshoes.vn/image/cache/catalog/2025/adidas/giay-adidas-runfalcon-5-nam-trang-04-200x200.jpg,https://myshoes.vn/image/cache/catalog/2025/adidas/giay-adidas-runfalcon-5-nam-trang-05-1600x1600.jpg",
+      "discription": "Giày Adidas Runfalcon 5 Nam - Trắng là mẫu giày thể thao mang phong cách hiện đại, thiết kế tối giản nhưng không kém phần năng động. Sản phẩm thuộc dòng Runfalcon, được Adidas tối ưu để đáp ứng nhu cầu tập luyện nhẹ, chạy bộ và sử dụng hàng ngày.\n\nThiết kế thanh lịch và thoải mái\nGiày có tông màu trắng chủ đạo, mang đến vẻ ngoài tinh tế và dễ dàng phối hợp với nhiều phong cách thời trang khác nhau. Logo 3 sọc đặc trưng của Adidas được đặt khéo léo hai bên, tạo điểm nhấn nổi bật mà vẫn giữ được sự tối giản đặc trưng của thương hiệu.\n\nPhần upper được làm từ vải lưới (mesh) cao cấp, giúp tối ưu hóa khả năng thông thoáng, giảm tình trạng bí bách khi mang lâu. Các đường nét được cắt gọn gàng, đường may chắc chắn, đảm bảo độ bền theo thời gian.\n\nCông nghệ đệm êm ái, hỗ trợ di chuyển linh hoạt\nPhần đế giữa sử dụng chất liệu EVA nhẹ và đàn hồi tốt, giúp hấp thụ lực tác động khi chạy hoặc di chuyển nhiều. Điều này giúp bảo vệ bàn chân, giảm áp lực lên khớp và mang lại cảm giác êm ái trong từng bước chân.\n\nBên cạnh đó, đế ngoài bằng cao su bền bỉ với độ bám cao giúp người dùng di chuyển ổn định trên nhiều bề mặt khác nhau, từ đường phố, phòng gym đến sân thể thao.",
+      "shortDescription": "Giày Adidas Runfalcon 5 Nam - Trắng là mẫu giày thể thao nhẹ, phù hợp cho chạy bộ và sử dụng hàng ngày. Thiết kế tối giản với tông màu trắng tinh tế, phần upper làm từ vải lưới thoáng khí giúp tăng cường sự thoải mái. Đế giữa EVA êm ái hỗ trợ giảm chấn, kết hợp với đế ngoài cao su bền bỉ cho độ bám tốt. Logo 3 sọc đặc trưng của Adidas tạo điểm nhấn năng động, thời trang.",
+      "categoryId": "1",
+      "id": 2,
+      "tinhtrang": "1"
+    },
+    {
+      "nameProduct": "Giày Adidas Gazelle Nữ - Trắng Xanh Lá",
+      "priceProduct": "1990000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2024_11/adidas/giay-adidas-gazelle-nam-trang-xanh-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2024_11/adidas/giay-adidas-gazelle-nam-trang-xanh-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2024_11/adidas/giay-adidas-gazelle-nam-trang-xanh-03-200x200.jpg,https://myshoes.vn/image/cache/catalog/2024_11/adidas/giay-adidas-gazelle-nam-trang-xanh-04-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2024_11/adidas/giay-adidas-gazelle-nam-trang-xanh-05-1600x1600.jpg",
+      "discription": "Giày Adidas Gazelle Nữ - Trắng Xanh Lá – Biểu tượng thời trang cổ điển\nAdidas Gazelle Nữ - Trắng Xanh Lá là một trong những mẫu sneaker mang tính biểu tượng của Adidas, kết hợp giữa phong cách retro và sự tinh tế hiện đại. Với thiết kế tối giản nhưng không kém phần nổi bật, đôi giày này mang lại sự thoải mái và dễ dàng phối đồ, phù hợp cho cả những tín đồ thời trang và người yêu thích phong cách thể thao.\n\nThiết kế cổ điển, thanh lịch\nMàu sắc chủ đạo của đôi giày là trắng tinh khôi, kết hợp với logo 3 sọc xanh lá đặc trưng của Adidas, tạo nên sự tương phản nổi bật nhưng vẫn giữ được nét thanh lịch, trẻ trung. Kiểu dáng low-top (cổ thấp) giúp tôn dáng chân, dễ dàng phối hợp với nhiều trang phục khác nhau từ quần jeans, váy đến quần short.\n\nPhần upper được làm từ chất liệu da lộn mềm mại, mang đến cảm giác êm ái và sang trọng. Logo Adidas cổ điển cùng chữ \"Gazelle\" in vàng ở hai bên giày là điểm nhấn đặc trưng của dòng sản phẩm này.\n\nCấu trúc chắc chắn, êm ái\nĐế ngoài bằng cao su có độ bám tốt, giúp di chuyển chắc chắn trên nhiều bề mặt khác nhau.\nLớp lót trong mềm mại, hỗ trợ nâng đỡ bàn chân, mang lại cảm giác thoải mái suốt cả ngày dài.\nLưỡi gà và cổ giày được thiết kế êm ái, hạn chế ma sát, giúp người dùng có trải nghiệm đi giày tốt hơn.",
+      "shortDescription": "Giày Adidas Gazelle Nữ - Trắng Xanh Lá sở hữu thiết kế cổ điển, upper da lộn mềm mại, logo 3 sọc xanh lá nổi bật. Đế cao su bền bỉ, êm ái, phù hợp với nhiều phong cách thời trang.",
+      "categoryId": "1",
+      "id": 3,
+      "tinhtrang": "1"
+    },
+    {
+      "nameProduct": "Giày Nike Court Shot Nam - Trắng Xanh",
+      "priceProduct": "2190000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-court-shot-nam-trang-xanh-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-court-shot-nam-trang-xanh-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-court-shot-nam-trang-xanh-03-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-court-shot-nam-trang-xanh-04-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-court-shot-nam-trang-xanh-06-1000x1000.jpg",
+      "discription": "Giày Nike Court Shot Nam - Trắng Xanh là mẫu giày thể thao lấy cảm hứng từ phong cách quần vợt cổ điển, mang lại sự kết hợp hoàn hảo giữa thiết kế thời trang và hiệu suất thoải mái.\n\nThiết kế tinh tế, thanh lịch\nSở hữu tông màu trắng chủ đạo kết hợp với logo Swoosh xanh dương, đôi giày mang đến vẻ ngoài năng động, trẻ trung nhưng vẫn giữ được nét sang trọng. Upper được làm từ chất liệu da tổng hợp cao cấp, giúp giày bền bỉ và dễ dàng vệ sinh.\n\nCấu trúc bền bỉ, thoải mái suốt ngày dài\n\nĐế giữa êm ái, hỗ trợ giảm chấn và tạo sự thoải mái khi di chuyển.\nĐế ngoài bằng cao su có độ bám tốt, giúp bước chân ổn định trên nhiều bề mặt.\nLưỡi gà và cổ giày có đệm mềm, tạo cảm giác dễ chịu khi mang lâu.\nPhong cách đa dụng, dễ phối đồ\nPhù hợp để sử dụng hàng ngày, đi chơi hoặc luyện tập thể thao nhẹ. Dễ dàng kết hợp với quần jeans, jogger hoặc đồ thể thao để tạo nên phong cách năng động, trẻ trung.",
+      "shortDescription": "Giày Nike Court Shot Nam - Trắng Xanh có thiết kế cổ điển, upper da tổng hợp bền bỉ, logo Swoosh xanh dương nổi bật. Đế cao su bám tốt, đệm êm ái, phù hợp cho phong cách hàng ngày và thể thao nhẹ.",
+      "categoryId": "3",
+      "id": 4,
+      "tinhtrang": "1"
+    },
+    {
+      "nameProduct": "Giày Nike Pegasus 41 Nam - Xám Trắng",
+      "priceProduct": "3790000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-pegasus-41-nam-xam-trang-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-pegasus-41-nam-xam-trang-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-pegasus-41-nam-xam-trang-03-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-pegasus-41-nam-xam-trang-04-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-pegasus-41-nam-xam-trang-05-1600x1600.jpg",
+      "discription": "Mô tả dài:\nGiày Nike Pegasus 41 Nam - Xám Trắng là mẫu giày chạy bộ thế hệ mới, kết hợp giữa thiết kế hiện đại và công nghệ tiên tiến, mang lại trải nghiệm thoải mái và hiệu suất tối ưu.\n\nThiết kế năng động, tinh tế\nSở hữu tông màu xám trắng trung tính, đôi giày mang đến vẻ ngoài thanh lịch, dễ dàng phối đồ. Upper được làm từ vải lưới (mesh) thoáng khí, giúp tăng cường độ thông thoáng, giảm tình trạng bí bách khi chạy hoặc sử dụng lâu dài.\n\nHiệu suất vượt trội, hỗ trợ tối đa\nCông nghệ đệm React + Zoom Air giúp hấp thụ lực tốt, mang lại độ nảy và phản hồi nhanh khi di chuyển.\nĐế ngoài bằng cao su bền bỉ, thiết kế rãnh linh hoạt giúp bám đường tốt trên nhiều địa hình.\nForm giày ôm chân vừa vặn, hỗ trợ chuyển động linh hoạt, phù hợp với cả chạy bộ và sử dụng hàng ngày.",
+      "shortDescription": "Giày Nike Pegasus 41 Nam - Xám Trắng có thiết kế hiện đại, upper vải lưới thoáng khí, đệm React + Zoom Air êm ái, đế cao su bám tốt. Phù hợp cho chạy bộ, tập luyện và sử dụng hàng ngày.\n",
+      "categoryId": "3",
+      "id": 5,
+      "tinhtrang": "2"
+    },
+    {
+      "nameProduct": "Giày Puma Rebound v6 Low Nam - Trắng Xanh",
+      "priceProduct": "1790000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2024_11/puma/giay-puma-rebound-v6-low-nam-trang-xanh-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2024_11/puma/giay-puma-rebound-v6-low-nam-trang-xanh-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2024_11/puma/giay-puma-rebound-v6-low-nam-trang-xanh-03-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2024_11/puma/giay-puma-rebound-v6-low-nam-trang-xanh-04-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2024_11/puma/giay-puma-rebound-v6-low-nam-trang-xanh-05-1600x1600.jpg",
+      "discription": "Mô tả dài:\nGiày Puma Rebound v6 Low Nam - Trắng Xanh là mẫu giày thể thao lấy cảm hứng từ thiết kế bóng rổ cổ điển, mang lại phong cách mạnh mẽ và cảm giác thoải mái tối đa. Với kiểu dáng low-top (cổ thấp), đôi giày này phù hợp cho cả hoạt động thể thao và sử dụng hàng ngày.\n\nThiết kế trẻ trung, năng động\nSở hữu gam màu trắng chủ đạo, kết hợp với chi tiết xanh dương nổi bật, giày tạo nên vẻ ngoài hiện đại nhưng vẫn giữ được nét cổ điển. Upper bằng da tổng hợp cao cấp giúp tăng độ bền và dễ dàng vệ sinh, trong khi các đường nét thiết kế tạo cảm giác thể thao mạnh mẽ.\n\nCấu trúc chắc chắn, êm ái\nLót giày SoftFoam+ giúp tăng cường độ êm ái và hỗ trợ bàn chân suốt cả ngày.\nĐế cao su bám tốt, thiết kế rãnh chống trơn trượt, giúp di chuyển ổn định.\nCổ giày và lưỡi gà có đệm mềm, giảm ma sát, tạo cảm giác thoải mái khi mang lâu.",
+      "shortDescription": "Giày Puma Rebound v6 Low Nam - Trắng Xanh có thiết kế cổ điển lấy cảm hứng từ giày bóng rổ, upper da tổng hợp bền bỉ, lót SoftFoam+ êm ái, đế cao su bám tốt. Phù hợp cho thể thao và phong cách đường phố.",
+      "categoryId": "4",
+      "id": 6,
+      "tinhtrang": "1"
+    },
+    {
+      "nameProduct": "Giày Lacoste L004 224 Nam - Trắng Đen",
+      "priceProduct": "2690000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2024_11/lacoste/giay-lacoste-l004-224-nam-trang-den-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2024_11/lacoste/giay-lacoste-l004-224-nam-trang-den-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2024_11/lacoste/giay-lacoste-l004-224-nam-trang-den-03-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2024_11/lacoste/giay-lacoste-l004-224-nam-trang-den-04-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2024_11/lacoste/giay-lacoste-l004-224-nam-trang-den-05-1600x1600.jpg",
+      "discription": "Giày Lacoste L004 224 Nam - Trắng Đen là mẫu sneaker mang phong cách tối giản, tinh tế với sự kết hợp giữa thiết kế hiện đại và nét cổ điển đặc trưng của thương hiệu Lacoste. Đôi giày không chỉ mang lại sự thoải mái khi di chuyển mà còn là lựa chọn lý tưởng cho những ai yêu thích phong cách thời trang thanh lịch và năng động.\n\nThiết kế thanh lịch, dễ phối đồ\nGam màu trắng chủ đạo, kết hợp với logo cá sấu đen đặc trưng ở hai bên, mang đến vẻ ngoài sang trọng, hiện đại nhưng vẫn giữ được sự trẻ trung. Upper làm từ da tổng hợp cao cấp, giúp tăng độ bền và dễ dàng vệ sinh. Đường may tinh tế cùng form dáng gọn gàng tạo nên tổng thể hoàn hảo.\n\nCấu trúc thoải mái, bền bỉ\nĐế ngoài cao su có độ bám cao, giúp di chuyển linh hoạt, chống trơn trượt.\nLớp lót êm ái, hỗ trợ nâng đỡ bàn chân, mang lại cảm giác dễ chịu cả ngày.\nLưỡi gà và cổ giày có đệm mềm, hạn chế ma sát, tạo sự thoải mái khi mang lâu.",
+      "shortDescription": "Giày Lacoste L004 224 Nam - Trắng Đen sở hữu thiết kế tối giản, upper da tổng hợp bền bỉ, logo cá sấu đen tinh tế. Đế cao su bám tốt, lót êm ái, phù hợp cho phong cách thời trang thanh lịch và năng động.",
+      "categoryId": "5",
+      "id": 7,
+      "tinhtrang": "2"
+    },
+    {
+      "nameProduct": "Giày Lacoste Chaymon 0120 2 Nam - Trắng Navy",
+      "priceProduct": "3290000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2022/lacoste/121/giay-lacoste-chaymon-120-2-nam-trang-navy-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/lacoste/121/giay-lacoste-chaymon-120-2-nam-trang-navy-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/lacoste/121/giay-lacoste-chaymon-120-2-nam-trang-navy-03-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/lacoste/121/giay-lacoste-chaymon-120-2-nam-trang-navy-04-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/lacoste/121/giay-lacoste-chaymon-120-2-nam-trang-navy-05-1600x1600.jpg",
+      "discription": "Giày Lacoste Chaymon 0120 2 Nam - Trắng Navy là mẫu sneaker mang phong cách thanh lịch, kết hợp giữa thiết kế cổ điển và sự hiện đại của thương hiệu Lacoste. Với chất liệu cao cấp và form dáng tinh tế, đôi giày này là lựa chọn hoàn hảo cho những ai yêu thích sự sang trọng nhưng vẫn năng động.\n\nThiết kế tinh tế, sang trọng\nGiày có tông màu trắng chủ đạo, kết hợp với chi tiết navy (xanh navy) tạo điểm nhấn lịch lãm. Logo cá sấu Lacoste được thêu tinh tế ở hai bên, khẳng định đẳng cấp thương hiệu. Upper làm từ da tổng hợp cao cấp, giúp tăng độ bền, dễ vệ sinh và mang lại cảm giác sang trọng.\n\nCấu trúc bền bỉ, êm ái\nLót giày êm ái, hỗ trợ bàn chân khi di chuyển, giảm áp lực lên chân.\nĐế cao su bám tốt, thiết kế chống trơn trượt, mang lại sự ổn định khi bước đi.\nCổ giày và lưỡi gà có đệm mềm, tạo cảm giác thoải mái suốt cả ngày dài.",
+      "shortDescription": "Giày Lacoste Chaymon 0120 2 Nam - Trắng Navy có thiết kế sang trọng, upper da tổng hợp bền bỉ, logo cá sấu tinh tế. Đế cao su bám tốt, lót êm ái, phù hợp với phong cách thanh lịch và năng động.",
+      "categoryId": "5",
+      "id": 8,
+      "tinhtrang": "1"
+    },
+    {
+      "nameProduct": "Giày Air Jordan 1 Low  553558-161",
+      "priceProduct": "2990000",
+      "imageProduct": "https://sneakerdaily.vn/wp-content/uploads/2023/10/giay-air-jordan-1-low-bred-toe-553558-161.jpg.webp,https://sneakerdaily.vn/wp-content/uploads/2023/10/Giay-Air-Jordan-1-Low-Bred-Toe-553558-161-6.jpg.webp,https://sneakerdaily.vn/wp-content/uploads/2023/10/Giay-Air-Jordan-1-Low-Bred-Toe-553558-161-5-1.jpg.webp,https://sneakerdaily.vn/wp-content/uploads/2023/10/Giay-Air-Jordan-1-Low-Bred-Toe-553558-161-6-1.jpg.webp,https://sneakerdaily.vn/wp-content/uploads/2023/10/13-150x150.png",
+      "discription": "Giày Air Jordan 1 Low ‘Bred Toe’ 553558-161 là phiên bản mang đậm dấu ấn của dòng Jordan 1 Low với phối màu Bred Toe huyền thoại. Thiết kế giữ nguyên DNA cổ điển của Jordan Brand nhưng được tinh chỉnh theo phong cách low-top, phù hợp với những ai yêu thích sự linh hoạt và phong cách streetwear năng động.\n\nThiết kế huyền thoại, cá tính\nPhối màu đỏ - đen - trắng đặc trưng của Jordan mang đến vẻ ngoài mạnh mẽ, cuốn hút. Upper làm từ da cao cấp, với phần mũi giày màu đỏ nổi bật, kết hợp với các tấm da đen và trắng tạo nên sự tương phản ấn tượng. Logo Jumpman trên lưỡi gà và Wings Logo ở gót giày tôn lên dấu ấn thương hiệu.\n\nHiệu suất thoải mái, bền bỉ\nĐệm Air trong đế giữa mang lại sự êm ái, hỗ trợ tối đa khi di chuyển.\nĐế ngoài cao su với họa tiết vân truyền thống giúp bám đường tốt, phù hợp cho cả hoạt động thể thao lẫn đi chơi.\nForm giày ôm chân vừa vặn, mang lại sự thoải mái và phong cách cá tính.",
+      "shortDescription": "Giày Air Jordan 1 Low ‘Bred Toe’ 553558-161 sở hữu phối màu đỏ - đen - trắng huyền thoại, upper da cao cấp, đệm Air êm ái, đế cao su bám tốt. Thiết kế low-top năng động, phù hợp với phong cách streetwear cá tính.",
+      "categoryId": "7",
+      "id": 9,
+      "tinhtrang": "2"
+    },
+    {
+      "nameProduct": "Giày Asics Classic CT Nam - Trắng Xanh Lá",
+      "priceProduct": "1390000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2022/asics/22.7/giay-asics-classic-ct-nam-trang-xanh-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/asics/22.7/giay-asics-classic-ct-nam-trang-xanh-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/asics/22.7/giay-asics-classic-ct-nam-trang-xanh-05-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/asics/22.7/giay-asics-classic-ct-nam-trang-xanh-06-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/asics/22.7/giay-asics-classic-ct-nam-trang-xanh-04-1600x1600.jpg",
+      "discription": "Giày Asics Classic CT Nam - Trắng Xanh Lá là mẫu sneaker lấy cảm hứng từ thiết kế quần vợt cổ điển, kết hợp giữa phong cách tối giản và hiệu suất thoải mái. Với sự kết hợp màu sắc tinh tế, form dáng gọn gàng và chất liệu cao cấp, đây là lựa chọn lý tưởng cho những ai yêu thích phong cách thanh lịch nhưng vẫn năng động.\n\nThiết kế đơn giản, tinh tế\nSở hữu gam màu trắng chủ đạo, điểm nhấn với logo Asics sọc xanh lá ở hai bên, đôi giày mang đến vẻ ngoài trẻ trung, hiện đại nhưng vẫn giữ được nét cổ điển. Upper làm từ da tổng hợp, giúp tăng độ bền và dễ dàng vệ sinh.\n\nCấu trúc chắc chắn, êm ái\nĐế ngoài cao su bám tốt, chống trơn trượt, phù hợp cho nhiều bề mặt.\nLót giày êm ái, hỗ trợ bàn chân, tạo cảm giác thoải mái suốt cả ngày.\nForm giày ôm chân vừa vặn, phù hợp cho cả đi chơi và di chuyển thường ngày.",
+      "shortDescription": "Giày Asics Classic CT Nam - Trắng Xanh Lá có thiết kế tối giản, upper da tổng hợp bền bỉ, logo Asics xanh lá nổi bật. Đế cao su bám tốt, lót êm ái, phù hợp cho phong cách thanh lịch và năng động.",
+      "categoryId": "6",
+      "id": 10,
+      "tinhtrang": "1"
+    },
+    {
+      "nameProduct": "Giày Asics Classic CT Nam - Trắng",
+      "priceProduct": "1390000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2022/asics/24.5/giay-asics-classic-ct-nam-trang-01-1600x1600.png,https://myshoes.vn/image/cache/catalog/2022/asics/24.5/giay-asics-classic-ct-nam-trang-03-1600x1600.png,https://myshoes.vn/image/cache/catalog/2022/asics/24.5/giay-asics-classic-ct-nam-trang-06-1600x1600.png,https://myshoes.vn/image/cache/catalog/2022/asics/24.5/giay-asics-classic-ct-nam-trang-05-1600x1600.png,https://myshoes.vn/image/cache/catalog/2022/asics/24.5/giay-asics-classic-ct-nam-trang-07-1600x1600.png",
+      "discription": "Giày Asics Classic CT Nam - Trắng là mẫu sneaker mang phong cách tối giản, thanh lịch, lấy cảm hứng từ thiết kế giày quần vợt cổ điển. Với gam màu trắng tinh tế, chất liệu cao cấp và form dáng gọn gàng, đôi giày này là lựa chọn hoàn hảo cho những ai yêu thích sự đơn giản nhưng vẫn thời trang.\n\nThiết kế hiện đại, dễ phối đồ\nGiày sở hữu upper da tổng hợp màu trắng, mang lại vẻ ngoài sang trọng và dễ dàng kết hợp với nhiều trang phục. Logo Asics được dập chìm tinh tế hai bên thân giày, tạo điểm nhấn nhẹ nhàng nhưng vẫn đầy phong cách.\n\nThoải mái, bền bỉ suốt ngày dài\nLót giày êm ái, hỗ trợ bàn chân, giảm áp lực khi di chuyển.\nĐế cao su có độ bám tốt, chống trơn trượt, phù hợp với nhiều bề mặt.\nCổ giày và lưỡi gà có đệm mềm, mang lại cảm giác dễ chịu ngay cả khi mang lâu.\nPhù hợp cho nhiều phong cách\nAsics Classic CT Nam - Trắng dễ dàng kết hợp với quần jeans, jogger hoặc quần short, phù hợp để đi chơi, đi làm hoặc dạo phố, mang đến vẻ ngoài thanh lịch và năng động.",
+      "shortDescription": "Giày Asics Classic CT Nam - Trắng có thiết kế tối giản với upper da tổng hợp cao cấp, đế cao su bám tốt, lót giày êm ái. Kiểu dáng thanh lịch, dễ phối đồ, phù hợp cho phong cách năng động hàng ngày.",
+      "categoryId": "6",
+      "id": 11,
+      "tinhtrang": "2"
+    },
+    {
+      "nameProduct": "Giày Nike Pegasus 41 Nam - Trắng Xanh",
+      "priceProduct": "3790000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-pegasus-41-nam-trang-xanh-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-pegasus-41-nam-trang-xanh-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-pegasus-41-nam-trang-xanh-03-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-pegasus-41-nam-trang-xanh-04-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-pegasus-41-nam-trang-xanh-05-1600x1600.jpg",
+      "discription": "Giày Nike Pegasus 41 Nam - Trắng Xanh là phiên bản mới nhất của dòng Pegasus huyền thoại, được thiết kế để mang lại hiệu suất tối ưu cho cả chạy bộ và sử dụng hàng ngày. Với sự kết hợp giữa công nghệ tiên tiến và thiết kế thể thao hiện đại, đôi giày này mang đến trải nghiệm êm ái, nhẹ nhàng và linh hoạt cho người mang.\n\nThiết kế hiện đại, năng động\nPhối màu trắng chủ đạo, kết hợp với các chi tiết xanh nổi bật, giúp đôi giày vừa mang vẻ ngoài thể thao mạnh mẽ vừa dễ dàng phối đồ. Upper làm từ lưới thoáng khí, giúp tăng cường độ thông thoáng, hạn chế đổ mồ hôi khi vận động. Logo Nike Swoosh nổi bật hai bên, tạo điểm nhấn đặc trưng của thương hiệu.\n\nCông nghệ đệm êm, hỗ trợ tối đa\nCông nghệ Nike React kết hợp Zoom Air mang lại độ nảy, đàn hồi tốt và cảm giác êm ái khi chạy.\nĐế ngoài cao su bám tốt, giúp tăng độ ổn định và linh hoạt trên nhiều loại địa hình.\nForm giày ôm chân vừa vặn, giúp di chuyển chắc chắn và giảm chấn khi vận động mạnh.",
+      "shortDescription": "Giày Nike Pegasus 41 Nam - Trắng Xanh có thiết kế thể thao hiện đại, upper lưới thoáng khí, công nghệ đệm React & Zoom Air êm ái, đế cao su bám tốt. Phù hợp cho chạy bộ, tập luyện và sử dụng hàng ngày.",
+      "categoryId": "3",
+      "id": 12,
+      "tinhtrang": "2"
+    },
+    {
+      "nameProduct": "Giày Nike Court Vision Low Nam - Trắng Nâu",
+      "priceProduct": "1990000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-court-vision-low-nam-trang-nau-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-court-vision-low-nam-trang-nau-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-court-vision-low-nam-trang-nau-03-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-court-vision-low-nam-trang-nau-04-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-court-vision-low-nam-trang-nau-05-1600x1600.jpg",
+      "discription": "Giày Nike Court Vision Low Nam - Trắng Nâu là sự kết hợp hoàn hảo giữa phong cách thể thao cổ điển và xu hướng hiện đại. Được lấy cảm hứng từ dòng giày bóng rổ thập niên 80, đôi giày này mang đến vẻ ngoài năng động nhưng vẫn thanh lịch, phù hợp với mọi phong cách thời trang.\n\n🔹 Thiết kế đẳng cấp: Phần thân giày được làm từ da tổng hợp chất lượng cao, đảm bảo độ bền và dễ vệ sinh. Đường khâu tinh tế cùng logo Swoosh đặc trưng tạo điểm nhấn nổi bật.\n🔹 Thoải mái cả ngày dài: Đế giày làm từ cao su bền bỉ với các rãnh chống trơn trượt, giúp di chuyển linh hoạt. Lớp lót êm ái bên trong mang lại cảm giác dễ chịu dù bạn di chuyển cả ngày.\n🔹 Màu sắc tinh tế: Sự kết hợp giữa màu trắng tinh khôi và nâu sang trọng giúp đôi giày dễ dàng phối hợp với nhiều loại trang phục, từ quần jeans, quần jogger đến quần short.\n\nDù là đi chơi, đi làm hay dạo phố, Nike Court Vision Low Nam - Trắng Nâu luôn là sự lựa chọn hoàn hảo cho những ai yêu thích phong cách năng động và thời trang! ",
+      "shortDescription": "Giày Nike Court Vision Low Nam Trắng Nâu mang phong cách cổ điển kết hợp hiện đại, phù hợp cho cả đi chơi và vận động. Thiết kế da tổng hợp bền bỉ, đế cao su bám chắc, cùng phối màu trắng nâu thanh lịch, dễ phối đồ.",
+      "categoryId": "3",
+      "tinhtrang": [
+        "2"
+      ],
+      "id": 13
+    }
+  ],
+  "tinhtrang": [
+    {
+      "id": 1,
+      "tinhtrang": "Sản phẩm new"
+    },
+    {
+      "id": 2,
+      "tinhtrang": "Sản phẩm nổi bật"
     }
   ]
 }

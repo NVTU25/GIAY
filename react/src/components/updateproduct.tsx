@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { ICategory } from "../interface/category";
 import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
+import { ITinhtrang } from "../interface/tinhtrang";
 
 const UpdateProduct = () => {
     const { register,handleSubmit,formState:{errors},reset } = useForm<IProductForm>();
@@ -44,19 +45,51 @@ const UpdateProduct = () => {
         } 
         getCategoryById();
     },[]);
+      // lấy ra tình trạng
+    const [ tinhtrang,setTinhtrang ] = useState<ITinhtrang[]>([]);
+    useEffect(() => {
+        const getTinhtrang = async () => {
+            try {
+                const { data } = await axios.get(` http://localhost:3000/tinhtrang`);
+                setTinhtrang(data);
+            } catch (error:any) {
+                toast.error(error)
+            }
+        }
+        getTinhtrang();
+    }, []);
     return (
         <div className="w-[97%] mx-auto mt-[0px]">
             <h1 className="font-[Merriweather] font-semibold text-[30px]">UpdateProduct</h1>
             <form onSubmit={handleSubmit(onSubmit)} className="relative mt-[20px]">
                 <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label font-[Poppins] text-[16px]">
-                    Tên sản phẩm <span className="text-red-500">(*) {errors.nameProduct&&<span className="text-[15px] text-red-600">Tên không được để trống !</span>}</span>
-                </label>
-                <input type="text" className="form-control w-full border border-[#B5B5B5] rounded h-[45px] pl-[10px] mt-[10px] focus:outline-[#00C5CD] transition-all duration-300 focus:shadow-[0_0_10px_#00C5CD] focus:border-[#00CED1]" placeholder="Nhập tên sản phẩmphẩm..."
-                    {...register("nameProduct", {
-                    required: true
-                    })}
-                />
+                    <label htmlFor="exampleInputEmail1" className="form-label font-[Poppins] text-[16px]">
+                        Tên sản phẩm <span className="text-red-500">(*) {errors.nameProduct&&<span className="text-[15px] text-red-600">Tên không được để trống !</span>}</span>
+                    </label>
+                    <input type="text" className="form-control w-full border border-[#B5B5B5] rounded h-[45px] pl-[10px] mt-[10px] focus:outline-[#00C5CD] transition-all duration-300 focus:shadow-[0_0_10px_#00C5CD] focus:border-[#00CED1]" placeholder="Nhập tên sản phẩmphẩm..."
+                        {...register("nameProduct", {
+                        required: true
+                        })}
+                    />
+                </div>
+                <div className="mb-3 flex flex-col">
+                    <label htmlFor="exampleInputEmail1" className="form-label font-[Poppins] text-[16px]">
+                        Tình trạng sản phẩm <span className="text-red-500">(*) {errors.nameProduct&&<span className="text-[15px] text-red-600">Tên không được để trống !</span>}</span>
+                    </label>
+                    <span className="w-full flex items-center mt-[10px] gap-8">
+                        {
+                            tinhtrang.map((item) => (
+                                <span className="flex">
+                                    <label htmlFor="" className="even:pl-[20px] text-[14px] font-[Poppins]"> {item.tinhtrang} </label>
+                                    <input type="radio" id={`tinhtrang-${item.id}`} className="w-[12px] form-control border border-[#B5B5B5] pt-[5px] rounded ml-[4px] mt-[0px] focus:outline-[#00C5CD] transition-all duration-300 focus:shadow-[0_0_10px_#00C5CD] focus:border-[#00CED1]" value={item.id}
+                                        {...register("tinhtrang", {
+                                            required: true
+                                        })}
+                                    />
+                                </span>
+                            ))
+                        }
+                    </span>
                 </div>
                 <div className="mb-3 mt-[20px]">
                     <label htmlFor="exampleInputPassword1" className="form-label font-[Poppins] text-[16px]">

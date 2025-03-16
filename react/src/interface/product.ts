@@ -6,5 +6,6 @@ export interface IProduct {
     categoryId: string,
     discription: string,
     shortDescription: string,
+    tinhtrang: string|number
 }
 export type IProductForm = Omit<IProduct, 'id'>;

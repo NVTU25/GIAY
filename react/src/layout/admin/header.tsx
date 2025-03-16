@@ -1,10 +1,9 @@
-import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faList,faMagnifyingGlass,faCalendarDays,faGear,faBell,faChevronDown  } from "@fortawesome/free-solid-svg-icons";
 
-type Props = {}
 
-const AdminHeader = (props: Props) => {
+
+const AdminHeader = () => {
   return (
     <header className='bg-white fixed top-0 left-0 w-full h-[80px] flex items-center z-50'>
         <div className='logo w-1/5 pl-[20px] flex items-center'>

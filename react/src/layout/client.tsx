@@ -1,19 +1,18 @@
-import ListProductClient from "../components/listProductClient";
+import { matchPath, Outlet, useLocation } from "react-router-dom";
 import FooterClient from "./client/footer";
 import HeaderClient from "./client/headerClient";
 import SlideShows from "./client/slideShows";
 
 const ClientLayout = () => {
+  const location = useLocation();
+  const hideSlideShows = matchPath('/signup/*', location.pathname);
+  const hideSlideShowSignin = matchPath('/signin/*', location.pathname);
   return (
-    <main className='w-[100%] mx-auto h-[3560px] bg-[#fff]'>
-      <div className="w-full fixed top-0 left-0 z-50">
-        <HeaderClient/>
-      </div>
-      <div className="pt-[130px] ">
-        <SlideShows/>
-      </div>
+    <main className='w-[100%] mx-auto max-h-[3560px] bg-[#fff]'>
+      <HeaderClient/>
+      {!hideSlideShows && !hideSlideShowSignin && <SlideShows />}
       <div className='w-full mx-auto mt-[40px]'>
-        <ListProductClient/>
+        <Outlet/>
       </div>
       <FooterClient/>
     </main>

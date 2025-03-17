@@ -13,7 +13,7 @@ const images = [
 ]
 const SlideShows: React.FC = () => {
   return (
-    <div className='flex justify-between w-full mt-[20px]'>
+    <div className='pt-[130px] flex justify-between w-full mt-[20px]'>
         <img className='w-1/5 h-[500px] ml-[20px]' src="./anh4.png" alt="" />
         <Swiper
             modules={[Navigation, Pagination, Autoplay]}

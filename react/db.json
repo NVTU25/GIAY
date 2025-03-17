@@ -169,5 +169,16 @@
       "id": 2,
       "tinhtrang": "Sản phẩm nổi bật"
     }
+  ],
+  "users": [
+    {
+      "email": "giangtqph52177@gmail.com",
+      "password": "$2a$10$oS4lVzsZwfDy4P6YfqK.BeQyrr9LFdfQql.TH4DtoarqOyMIOPSee",
+      "username": "quanggiang",
+      "phone": "0123456789",
+      "confirmPassword": "123456",
+      "role": "user",
+      "id": 1
+    }
   ]
 }

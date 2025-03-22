@@ -45,7 +45,8 @@
       "shortDescription": "Giày Adidas Runfalcon 5 Nam - Trắng là mẫu giày thể thao nhẹ, phù hợp cho chạy bộ và sử dụng hàng ngày. Thiết kế tối giản với tông màu trắng tinh tế, phần upper làm từ vải lưới thoáng khí giúp tăng cường sự thoải mái. Đế giữa EVA êm ái hỗ trợ giảm chấn, kết hợp với đế ngoài cao su bền bỉ cho độ bám tốt. Logo 3 sọc đặc trưng của Adidas tạo điểm nhấn năng động, thời trang.",
       "categoryId": "1",
       "id": 2,
-      "tinhtrang": "1"
+      "tinhtrang": "1",
+      "size": "39,40,41,42"
     },
     {
       "nameProduct": "Giày Adidas Gazelle Nữ - Trắng Xanh Lá",
@@ -55,7 +56,8 @@
       "shortDescription": "Giày Adidas Gazelle Nữ - Trắng Xanh Lá sở hữu thiết kế cổ điển, upper da lộn mềm mại, logo 3 sọc xanh lá nổi bật. Đế cao su bền bỉ, êm ái, phù hợp với nhiều phong cách thời trang.",
       "categoryId": "1",
       "id": 3,
-      "tinhtrang": "1"
+      "tinhtrang": "1",
+      "size": "38,39,40,41"
     },
     {
       "nameProduct": "Giày Nike Court Shot Nam - Trắng Xanh",
@@ -65,7 +67,8 @@
       "shortDescription": "Giày Nike Court Shot Nam - Trắng Xanh có thiết kế cổ điển, upper da tổng hợp bền bỉ, logo Swoosh xanh dương nổi bật. Đế cao su bám tốt, đệm êm ái, phù hợp cho phong cách hàng ngày và thể thao nhẹ.",
       "categoryId": "3",
       "id": 4,
-      "tinhtrang": "1"
+      "tinhtrang": "1",
+      "size": "38,39,40,41,42"
     },
     {
       "nameProduct": "Giày Nike Pegasus 41 Nam - Xám Trắng",
@@ -75,7 +78,8 @@
       "shortDescription": "Giày Nike Pegasus 41 Nam - Xám Trắng có thiết kế hiện đại, upper vải lưới thoáng khí, đệm React + Zoom Air êm ái, đế cao su bám tốt. Phù hợp cho chạy bộ, tập luyện và sử dụng hàng ngày.\n",
       "categoryId": "3",
       "id": 5,
-      "tinhtrang": "2"
+      "tinhtrang": "2",
+      "size": "40,41,42"
     },
     {
       "nameProduct": "Giày Puma Rebound v6 Low Nam - Trắng Xanh",
@@ -85,7 +89,8 @@
       "shortDescription": "Giày Puma Rebound v6 Low Nam - Trắng Xanh có thiết kế cổ điển lấy cảm hứng từ giày bóng rổ, upper da tổng hợp bền bỉ, lót SoftFoam+ êm ái, đế cao su bám tốt. Phù hợp cho thể thao và phong cách đường phố.",
       "categoryId": "4",
       "id": 6,
-      "tinhtrang": "1"
+      "tinhtrang": "1",
+      "size": "38,39,40,41"
     },
     {
       "nameProduct": "Giày Lacoste L004 224 Nam - Trắng Đen",
@@ -95,7 +100,8 @@
       "shortDescription": "Giày Lacoste L004 224 Nam - Trắng Đen sở hữu thiết kế tối giản, upper da tổng hợp bền bỉ, logo cá sấu đen tinh tế. Đế cao su bám tốt, lót êm ái, phù hợp cho phong cách thời trang thanh lịch và năng động.",
       "categoryId": "5",
       "id": 7,
-      "tinhtrang": "2"
+      "tinhtrang": "2",
+      "size": "38,39,40,41"
     },
     {
       "nameProduct": "Giày Lacoste Chaymon 0120 2 Nam - Trắng Navy",
@@ -105,7 +111,8 @@
       "shortDescription": "Giày Lacoste Chaymon 0120 2 Nam - Trắng Navy có thiết kế sang trọng, upper da tổng hợp bền bỉ, logo cá sấu tinh tế. Đế cao su bám tốt, lót êm ái, phù hợp với phong cách thanh lịch và năng động.",
       "categoryId": "5",
       "id": 8,
-      "tinhtrang": "1"
+      "tinhtrang": "1",
+      "size": "38,39,40,41,42"
     },
     {
       "nameProduct": "Giày Air Jordan 1 Low  553558-161",
@@ -115,7 +122,8 @@
       "shortDescription": "Giày Air Jordan 1 Low ‘Bred Toe’ 553558-161 sở hữu phối màu đỏ - đen - trắng huyền thoại, upper da cao cấp, đệm Air êm ái, đế cao su bám tốt. Thiết kế low-top năng động, phù hợp với phong cách streetwear cá tính.",
       "categoryId": "7",
       "id": 9,
-      "tinhtrang": "2"
+      "tinhtrang": "2",
+      "size": "38,39,40,41,42"
     },
     {
       "nameProduct": "Giày Asics Classic CT Nam - Trắng Xanh Lá",
@@ -125,7 +133,8 @@
       "shortDescription": "Giày Asics Classic CT Nam - Trắng Xanh Lá có thiết kế tối giản, upper da tổng hợp bền bỉ, logo Asics xanh lá nổi bật. Đế cao su bám tốt, lót êm ái, phù hợp cho phong cách thanh lịch và năng động.",
       "categoryId": "6",
       "id": 10,
-      "tinhtrang": "1"
+      "tinhtrang": "1",
+      "size": "38,39,40,41"
     },
     {
       "nameProduct": "Giày Asics Classic CT Nam - Trắng",
@@ -135,7 +144,8 @@
       "shortDescription": "Giày Asics Classic CT Nam - Trắng có thiết kế tối giản với upper da tổng hợp cao cấp, đế cao su bám tốt, lót giày êm ái. Kiểu dáng thanh lịch, dễ phối đồ, phù hợp cho phong cách năng động hàng ngày.",
       "categoryId": "6",
       "id": 11,
-      "tinhtrang": "2"
+      "tinhtrang": "2",
+      "size": "38,39,40,41"
     },
     {
       "nameProduct": "Giày Nike Pegasus 41 Nam - Trắng Xanh",
@@ -145,7 +155,8 @@
       "shortDescription": "Giày Nike Pegasus 41 Nam - Trắng Xanh có thiết kế thể thao hiện đại, upper lưới thoáng khí, công nghệ đệm React & Zoom Air êm ái, đế cao su bám tốt. Phù hợp cho chạy bộ, tập luyện và sử dụng hàng ngày.",
       "categoryId": "3",
       "id": 12,
-      "tinhtrang": "2"
+      "tinhtrang": "2",
+      "size": "38,39,40,41"
     },
     {
       "nameProduct": "Giày Nike Court Vision Low Nam - Trắng Nâu",
@@ -154,10 +165,97 @@
       "discription": "Giày Nike Court Vision Low Nam - Trắng Nâu là sự kết hợp hoàn hảo giữa phong cách thể thao cổ điển và xu hướng hiện đại. Được lấy cảm hứng từ dòng giày bóng rổ thập niên 80, đôi giày này mang đến vẻ ngoài năng động nhưng vẫn thanh lịch, phù hợp với mọi phong cách thời trang.\n\n🔹 Thiết kế đẳng cấp: Phần thân giày được làm từ da tổng hợp chất lượng cao, đảm bảo độ bền và dễ vệ sinh. Đường khâu tinh tế cùng logo Swoosh đặc trưng tạo điểm nhấn nổi bật.\n🔹 Thoải mái cả ngày dài: Đế giày làm từ cao su bền bỉ với các rãnh chống trơn trượt, giúp di chuyển linh hoạt. Lớp lót êm ái bên trong mang lại cảm giác dễ chịu dù bạn di chuyển cả ngày.\n🔹 Màu sắc tinh tế: Sự kết hợp giữa màu trắng tinh khôi và nâu sang trọng giúp đôi giày dễ dàng phối hợp với nhiều loại trang phục, từ quần jeans, quần jogger đến quần short.\n\nDù là đi chơi, đi làm hay dạo phố, Nike Court Vision Low Nam - Trắng Nâu luôn là sự lựa chọn hoàn hảo cho những ai yêu thích phong cách năng động và thời trang! ",
       "shortDescription": "Giày Nike Court Vision Low Nam Trắng Nâu mang phong cách cổ điển kết hợp hiện đại, phù hợp cho cả đi chơi và vận động. Thiết kế da tổng hợp bền bỉ, đế cao su bám chắc, cùng phối màu trắng nâu thanh lịch, dễ phối đồ.",
       "categoryId": "3",
-      "tinhtrang": [
-        "2"
-      ],
-      "id": 13
+      "tinhtrang": "2",
+      "id": 13,
+      "size": "38,39,40,41,42"
+    },
+    {
+      "nameProduct": "Giày đá bóng Nike Air Zoom Mercurial Vapor ",
+      "priceProduct": "1990000",
+      "imageProduct": "https://product.hstatic.net/1000061481/product/2-01-01-02-02-02-02-02-02-01-02-02-02-01-02-02-01-02-02-02-02-02-02-02_1bd27c0528924292aa9a011524acd502_1024x1024.jpg,https://product.hstatic.net/1000061481/product/nms01928_a6da20ad15914be189184b44ba5d1eaf_1024x1024.jpg,https://product.hstatic.net/1000061481/product/nms01929_aae9e0d5ad8b4cb2a18189ec834edca5_1024x1024.jpg,https://product.hstatic.net/1000061481/product/nms01931_5a2c6eb115a1400da80e2a0b0159cb88_1024x1024.jpg,https://product.hstatic.net/1000061481/product/nms01933_bc888e51638a4445968b6d66953bbf18_1024x1024.jpg",
+      "discription": "Nike Air Zoom Mercurial Vapor là dòng giày đá bóng cao cấp dành cho những cầu thủ yêu thích tốc độ và khả năng kiểm soát bóng tối ưu. Với công nghệ Zoom Air độc quyền của Nike, đôi giày này mang đến cảm giác nhẹ nhàng, độ phản hồi tốt và sự hỗ trợ hoàn hảo trong những pha bứt tốc.\n\nPhần upper được làm từ chất liệu Flyknit cao cấp, kết hợp với lớp phủ NikeSkin, giúp tăng cường độ bám và kiểm soát bóng trong mọi điều kiện thời tiết. Cổ giày ôm sát theo dạng Dynamic Fit, mang đến sự chắc chắn và thoải mái tối đa khi di chuyển.\n\nĐế ngoài sử dụng hệ thống đinh Tri-star giúp tối ưu hóa độ bám sân, cho phép người chơi thực hiện những pha đổi hướng linh hoạt. Nike Air Zoom Mercurial Vapor là lựa chọn lý tưởng cho các cầu thủ thi đấu ở sân cỏ tự nhiên và nhân tạo, đặc biệt phù hợp với các tiền đạo, tiền vệ cánh yêu thích lối chơi tốc độ.",
+      "shortDescription": "Nike Air Zoom Mercurial Vapor – đôi giày đá bóng tốc độ với công nghệ Air Zoom đột phá, mang đến sự thoải mái và khả năng tăng tốc tối ưu trên sân cỏ. Thiết kế ôm chân, chất liệu cao cấp giúp kiểm soát bóng hoàn hảo và di chuyển linh hoạt.",
+      "categoryId": "2",
+      "tinhtrang": "1",
+      "id": 14,
+      "size": "39,40,41,42"
+    },
+    {
+      "nameProduct": "Giày Nike SB Malor Nam - Camo",
+      "priceProduct": "1990000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-sb-malor-nam-camo-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-sb-malor-nam-camo-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-sb-malor-nam-camo-03-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-sb-malor-nam-camo-04-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-sb-malor-nam-camo-05-1600x1600.jpg",
+      "discription": "Nike SB Malor Nam - Camo là đôi giày trượt ván phong cách với thiết kế rằn ri cá tính. Chất liệu vải bền bỉ, đế cao su bám tốt và lót giày êm ái giúp mang lại cảm giác thoải mái, linh hoạt trong từng bước di chuyển.",
+      "shortDescription": "Nike SB Malor Nam - Camo là đôi giày dành cho những ai yêu thích phong cách đường phố mạnh mẽ và năng động. Thiết kế rằn ri (Camo) độc đáo kết hợp với kiểu dáng cổ thấp mang đến sự trẻ trung, cá tính.\n\nPhần upper được làm từ chất liệu vải canvas cao cấp, giúp giày có độ bền cao nhưng vẫn đảm bảo sự thoáng khí. Đế ngoài bằng cao su chống trượt, tối ưu độ bám trên nhiều bề mặt, đặc biệt phù hợp cho các hoạt động trượt ván. Lót giày công nghệ Zoom Air giúp tăng cường độ êm ái và hỗ trợ tối đa cho bàn chân khi di chuyển.\n\nNike SB Malor Nam - Camo không chỉ là một đôi giày chuyên dụng cho skater mà còn là một lựa chọn hoàn hảo cho những ai yêu thích phong cách thời trang đường phố bụi bặm và cá tính.",
+      "categoryId": "3",
+      "tinhtrang": "2",
+      "id": 15,
+      "size": "38,39,40,41"
+    },
+    {
+      "nameProduct": "Giày Nike Rival Fly 4 Nữ - Đen Trắng",
+      "priceProduct": "2690000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-rival-fly-4-nam-den-trang-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-rival-fly-4-nam-den-trang-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-rival-fly-4-nam-den-trang-03-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-rival-fly-4-nam-den-trang-04-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-rival-fly-4-nam-den-trang-05-1600x1600.jpg",
+      "discription": "Nike SB Malor Nam - Camo là đôi giày dành cho những ai yêu thích phong cách đường phố mạnh mẽ và năng động. Thiết kế rằn ri (Camo) độc đáo kết hợp với kiểu dáng cổ thấp mang đến sự trẻ trung, cá tính.\n\nPhần upper được làm từ chất liệu vải canvas cao cấp, giúp giày có độ bền cao nhưng vẫn đảm bảo sự thoáng khí. Đế ngoài bằng cao su chống trượt, tối ưu độ bám trên nhiều bề mặt, đặc biệt phù hợp cho các hoạt động trượt ván. Lót giày công nghệ Zoom Air giúp tăng cường độ êm ái và hỗ trợ tối đa cho bàn chân khi di chuyển.\n\nNike SB Malor Nam - Camo không chỉ là một đôi giày chuyên dụng cho skater mà còn là một lựa chọn hoàn hảo cho những ai yêu thích phong cách thời trang đường phố bụi bặm và cá tính.",
+      "shortDescription": "Nike SB Malor Nam - Camo là đôi giày trượt ván phong cách với thiết kế rằn ri cá tính. Chất liệu vải bền bỉ, đế cao su bám tốt và lót giày êm ái giúp mang lại cảm giác thoải mái, linh hoạt trong từng bước di chuyển.",
+      "categoryId": "3",
+      "tinhtrang": "1",
+      "id": 16,
+      "size": "38,39,40,41"
+    },
+    {
+      "nameProduct": "Giày Lacoste Chaymon 0120 2 Nam - Trắng Navy",
+      "priceProduct": "3290000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2022/lacoste/121/giay-lacoste-chaymon-120-2-nam-trang-navy-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/lacoste/121/giay-lacoste-chaymon-120-2-nam-trang-navy-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/lacoste/121/giay-lacoste-chaymon-120-2-nam-trang-navy-03-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/lacoste/121/giay-lacoste-chaymon-120-2-nam-trang-navy-04-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/lacoste/121/giay-lacoste-chaymon-120-2-nam-trang-navy-05-1600x1600.jpg",
+      "discription": "Lacoste Chaymon 0120 2 Nam - Trắng Navy là mẫu sneaker mang phong cách tinh tế, tối giản nhưng không kém phần hiện đại. Sự kết hợp giữa tông màu trắng tinh khôi và chi tiết navy tạo nên vẻ ngoài thanh lịch, dễ dàng phối hợp với nhiều trang phục khác nhau.\n\nPhần upper được làm từ da tổng hợp cao cấp, mang lại cảm giác mềm mại và bền bỉ theo thời gian. Lớp lót trong thoáng khí, giúp chân luôn khô thoáng dù di chuyển cả ngày dài. Đế ngoài cao su bám chắc, tăng cường độ ổn định và êm ái trên nhiều loại bề mặt.\n\nĐiểm nhấn đặc biệt của đôi giày là logo cá sấu Lacoste tinh tế được thêu nổi ở phần thân giày, khẳng định phong cách và đẳng cấp thương hiệu. Lacoste Chaymon 0120 2 là lựa chọn hoàn hảo cho những ai yêu thích sự lịch lãm, phù hợp để diện đi làm, đi chơi hay dạo phố hằng ngày.",
+      "shortDescription": "Lacoste Chaymon 0120 2 Nam - Trắng Navy là đôi giày sneaker thanh lịch, kết hợp giữa phong cách thể thao và thời trang. Chất liệu da cao cấp, đế cao su bền bỉ cùng logo cá sấu đặc trưng mang đến sự thoải mái và sang trọng trong mọi hoàn cảnh.",
+      "categoryId": "5",
+      "tinhtrang": "1",
+      "id": 17,
+      "size": "38,39,40,41"
+    },
+    {
+      "nameProduct": "Giày Asics GlideRide 2 Nam - Xanh",
+      "priceProduct": "239000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2022/asics/22.7/giay-asics-glideride-2-nam-xanh-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/asics/22.7/giay-asics-glideride-2-nam-xanh-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/asics/22.7/giay-asics-glideride-2-nam-xanh-03-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/asics/22.7/giay-asics-glideride-2-nam-xanh-04-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2022/asics/22.7/giay-asics-glideride-2-nam-xanh-05-1600x1600.jpg",
+      "discription": "Asics GlideRide 2 Nam - Xanh là mẫu giày chạy bộ được thiết kế dành cho những người yêu thích tốc độ và sự bền bỉ. Công nghệ GUIDESOLE™ độc quyền giúp giảm thiểu hao tổn năng lượng bằng cách tối ưu hóa độ cong của đế giày, tạo hiệu ứng đẩy chân về phía trước, giúp bước chạy mượt mà hơn.\n\nPhần upper được làm từ vải mesh thoáng khí, giúp tăng cường độ thông thoáng và giữ cho bàn chân luôn khô ráo. Lớp đệm FLYTEFOAM™ kết hợp với GEL™ ở gót giày mang lại độ êm ái vượt trội, hấp thụ lực tác động hiệu quả, hạn chế chấn thương khi chạy đường dài.\n\nĐế ngoài bằng cao su AHAR™ chống mài mòn, tăng cường độ bám trên nhiều bề mặt, từ đường chạy đến các cung đường phức tạp. Thiết kế với tông màu xanh nổi bật, Asics GlideRide 2 không chỉ mang đến hiệu suất tối ưu mà còn giúp người mang tự tin thể hiện phong cách thể thao đầy năng động.",
+      "shortDescription": "Asics GlideRide 2 Nam - Xanh là đôi giày chạy bộ cao cấp với công nghệ GUIDESOLE™, giúp tiết kiệm năng lượng và tăng cường sự thoải mái khi di chuyển. Thiết kế năng động, đệm êm ái, hỗ trợ tối đa cho những bước chạy dài và ổn định.",
+      "categoryId": "6",
+      "tinhtrang": "1",
+      "id": 18,
+      "size": "38,39,40,41"
+    },
+    {
+      "nameProduct": "Giày Nike Jordan Max Aura 5 Nam - Đen",
+      "priceProduct": "2890000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2023/nike/nike02/giay-nike-jordan-max-aura-5-nam-trang-den-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2023/nike/nike02/giay-nike-jordan-max-aura-5-nam-trang-den-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2023/nike/nike02/giay-nike-jordan-max-aura-5-nam-trang-den-03-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2023/nike/nike02/giay-nike-jordan-max-aura-5-nam-trang-den-04-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2023/nike/nike02/giay-nike-jordan-max-aura-5-nam-trang-den-05-1600x1600.jpg",
+      "discription": "Nike Jordan Max Aura 5 Nam - Đen Trắng là mẫu giày lấy cảm hứng từ di sản của dòng Jordan, mang đến phong cách mạnh mẽ, đậm chất thể thao. Thiết kế màu đen - trắng tối giản nhưng cá tính, dễ dàng phối hợp với nhiều trang phục khác nhau.\n\nPhần upper được làm từ da tổng hợp và vải lưới thoáng khí, giúp đôi giày vừa bền bỉ vừa mang lại cảm giác thoải mái trong suốt ngày dài. Công nghệ Nike Air Max ở phần gót hỗ trợ hấp thụ lực tác động, tạo độ êm ái và phản hồi tốt trong từng bước di chuyển.\n\nĐế ngoài bằng cao su có vân xương cá, tăng cường độ bám và ổn định trên nhiều bề mặt, đặc biệt phù hợp cho sân bóng rổ hoặc di chuyển hàng ngày. Với logo Jumpman đặc trưng, Nike Jordan Max Aura 5 không chỉ là đôi giày thể thao hiệu suất cao mà còn là biểu tượng thời trang dành cho những ai yêu thích phong cách đường phố đẳng cấp.",
+      "shortDescription": "Nike Jordan Max Aura 5 Nam - Đen Trắng là đôi giày thể thao mang phong cách huyền thoại của dòng Jordan, kết hợp giữa thiết kế hiện đại và hiệu suất tối ưu. Với phần đệm Air Max êm ái, chất liệu bền bỉ và kiểu dáng mạnh mẽ, đây là lựa chọn lý tưởng cho cả bóng rổ và thời trang đường phố.",
+      "categoryId": "3",
+      "tinhtrang": "2",
+      "id": 19,
+      "size": "39,40,41,42"
+    },
+    {
+      "nameProduct": "Giày Nike Air Max AP Nữ - Hồng Trắng",
+      "priceProduct": "2490000",
+      "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-air-max-ap-nu-trang-hong-trang-01-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-air-max-ap-nu-trang-hong-trang-02-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-air-max-ap-nu-trang-hong-trang-03-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-air-max-ap-nu-trang-hong-trang-04-1600x1600.jpg,https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-air-max-ap-nu-trang-hong-trang-05-1600x1600.jpg",
+      "discription": "Nike Air Max AP Nữ - Hồng Trắng là sự kết hợp hoàn hảo giữa phong cách thể thao và thời trang hiện đại. Với thiết kế tinh tế, nữ tính cùng gam màu hồng - trắng nhẹ nhàng, đôi giày mang đến vẻ ngoài trẻ trung, năng động nhưng vẫn đầy thanh lịch.\n\nPhần upper sử dụng vải lưới thoáng khí kết hợp với da tổng hợp, giúp tăng độ bền và tạo sự thông thoáng cho đôi chân. Công nghệ Air Max đặc trưng ở phần đế giữa mang lại cảm giác êm ái, giảm chấn hiệu quả, hỗ trợ tối đa cho người mang khi di chuyển cả ngày dài.\n\nĐế ngoài bằng cao su chống trượt, thiết kế linh hoạt giúp tạo độ bám tốt trên nhiều bề mặt. Kiểu dáng thấp cổ dễ dàng phối hợp với nhiều phong cách thời trang, từ thể thao năng động đến streetwear cá tính. Nike Air Max AP Nữ - Hồng Trắng là lựa chọn lý tưởng cho những cô nàng yêu thích sự thoải mái, phong cách và hiệu suất cao trong từng bước đi.",
+      "shortDescription": "Nike Air Max AP Nữ - Hồng Trắng là đôi giày sneaker mang phong cách hiện đại với thiết kế nhẹ nhàng, nữ tính. Công nghệ Air Max mang lại sự êm ái vượt trội, phần upper thoáng khí kết hợp với đế cao su bền bỉ, giúp bạn di chuyển thoải mái suốt cả ngày.",
+      "categoryId": "3",
+      "tinhtrang": "2",
+      "id": 20,
+      "size": "38,39,40"
+    },
+    {
+      "nameProduct": "Giày nam Air Jordan 1 x Travis Scott ",
+      "priceProduct": "2890000",
+      "imageProduct": "https://sneakerdaily.vn/wp-content/uploads/2021/07/Giay-nam-Air-Jordan-1-x-Travis-Scott-x-Fragment-Retro-High-OG-Military-Blue-DH3227-105.jpg.webp,https://sneakerdaily.vn/wp-content/uploads/2021/07/giay-air-jordan-1-x-travis-scott-x-fragment-retro-high-og-military-blue-dh3227-105-2.jpg.webp,https://sneakerdaily.vn/wp-content/uploads/2021/07/giay-air-jordan-1-x-travis-scott-x-fragment-retro-high-og-military-blue-dh3227-105-8.jpg.webp,https://sneakerdaily.vn/wp-content/uploads/2021/07/giay-air-jordan-1-x-travis-scott-x-fragment-retro-high-og-military-blue-dh3227-105-3.jpg.webp,https://sneakerdaily.vn/wp-content/uploads/2021/07/giay-air-jordan-1-x-travis-scott-x-fragment-retro-high-og-military-blue-dh3227-105-4.jpg.webp",
+      "discription": "Air Jordan 1 x Travis Scott x Fragment Retro High OG ‘Military Blue’ DH3227-105 là đôi sneaker collab đình đám giữa Jordan Brand, rapper Travis Scott và Fragment Design. Với thiết kế Reverse Swoosh đặc trưng, phối màu trắng - xanh dương - đen cổ điển cùng chất liệu da cao cấp, đôi giày mang đến sự kết hợp hoàn hảo giữa phong cách streetwear và giá trị sưu tầm.\n\nMô tả dài:\nAir Jordan 1 x Travis Scott x Fragment Retro High OG ‘Military Blue’ DH3227-105 là một trong những phiên bản sneaker được săn đón nhất, đánh dấu sự hợp tác giữa Jordan Brand, Travis Scott và Fragment Design. Thiết kế mang đậm dấu ấn của cả ba thương hiệu, với phối màu Military Blue huyền thoại, kết hợp với biểu tượng Reverse Swoosh nổi bật – chi tiết đặc trưng của các sản phẩm collab với Travis Scott.\n\nPhần upper được làm từ da cao cấp, mang đến sự mềm mại và độ bền cao, với các chi tiết màu trắng, xanh dương và đen tạo nên vẻ ngoài mạnh mẽ, đậm chất retro. Logo Cactus Jack của Travis Scott được in chìm ở phần gót, trong khi biểu tượng Fragment Design xuất hiện tinh tế, thể hiện sự kết hợp độc đáo giữa hai phong cách đường phố và high-fashion.",
+      "shortDescription": "Air Jordan 1 x Travis Scott x Fragment ‘Military Blue’ là đôi sneaker collab đình đám với thiết kế Reverse Swoosh, phối màu trắng - xanh - đen cổ điển và chất liệu da cao cấp, mang đậm dấu ấn streetwear và giá trị sưu tầm.",
+      "categoryId": "7",
+      "tinhtrang": "2",
+      "id": 21,
+      "size": "38,39,40,41,42"
     }
   ],
   "tinhtrang": [
@@ -168,6 +266,26 @@
     {
       "id": 2,
       "tinhtrang": "Sản phẩm nổi bật"
+    }
+  ],
+  "users": [
+    {
+      "email": "giangtqph52177@gmail.com",
+      "password": "$2a$10$oS4lVzsZwfDy4P6YfqK.BeQyrr9LFdfQql.TH4DtoarqOyMIOPSee",
+      "username": "quanggiang",
+      "phone": "0123456789",
+      "confirmPassword": "123456",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "email": "huong@gmail.com",
+      "password": "$2a$10$Cixqrr8RGJ/k4D1.yOQ/bejwd/jTrw9PkkmqxTk1/843aKwszvLgy",
+      "username": "giangtqph",
+      "phone": "0348892533",
+      "confirmPassword": "1234567",
+      "role": "user",
+      "id": 2
     }
   ]
 }

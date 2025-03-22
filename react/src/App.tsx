@@ -12,6 +12,11 @@ import AddProduct from "./components/addproduct";
 import Listproduct from "./components/listproducts";
 import UpdateProduct from "./components/updateproduct";
 import ClientLayout from "./layout/client";
+import ListProductClient from "./components/listProductClient";
+import SingupClinet from "./components/signup";
+import SigninClient from "./components/signin";
+import DetailProduct from "./components/detailProduct";
+import Cart from "./components/cart";
 
 
 
@@ -27,7 +32,11 @@ function App() {
       {path: 'updateProduct/:id', element:<UpdateProduct/>},
      ]},
      {path: '/', element: <ClientLayout/>, children: [
-
+      {path: '', element: <ListProductClient/> },
+      {path: 'signup', element: <SingupClinet/> },
+      {path: 'signin', element: <SigninClient/> },
+      {path: 'product/:id', element: <DetailProduct/> },
+      {path: 'cart', element: <Cart/>},
      ]}
   ]);
   return (

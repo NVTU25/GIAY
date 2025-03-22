@@ -18,7 +18,7 @@ const FooterClient = () => {
             <span className="w-[40%]">
                 <h3 className="text-[18px] text-[#fff] uppercase">Myshoes.vn - Giày Chính Hãng</h3>
                 <span className="flex items-center mt-[20px]">
-                    <img className="w-[90px] h-[90px]" src="./logomy.png" alt="" />
+                    <img className="w-[90px] h-[90px]" src="../logomy.png" alt="" />
                     <span className="ml-[10px]">
                         <p className="text-[#fff] text-[14px] ">Myshoes.vn được định hướng trở thành hệ thống thương mại điện tử bán giày chính hãng hàng đầu Việt Nam.</p>
                         <p className="text-[#fff] text-[14px] mt-[5px]">Showroom: 249 Xã Đàn, Hà Nội</p>

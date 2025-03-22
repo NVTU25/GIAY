@@ -67,8 +67,8 @@ const AddProduct = () => {
                         {
                             tinhtrang.map((item) => (
                                 <span className="flex">
-                                    <label htmlFor="tinhtrang" className="even:pl-[20px] text-[14px] font-[Poppins]"> {item.tinhtrang} </label>
-                                    <input type="checkbox" id="tinhtrang" className="w-[12px] form-control border border-[#B5B5B5] pt-[5px] rounded ml-[4px] mt-[0px] focus:outline-[#00C5CD] transition-all duration-300 focus:shadow-[0_0_10px_#00C5CD] focus:border-[#00CED1]" value={item.id}
+                                    <label htmlFor="" className="even:pl-[20px] text-[14px] font-[Poppins]"> {item.tinhtrang} </label>
+                                    <input type="radio" id={`tinhtrang-${item.id}`} className="w-[12px] form-control border border-[#B5B5B5] pt-[5px] rounded ml-[4px] mt-[0px] focus:outline-[#00C5CD] transition-all duration-300 focus:shadow-[0_0_10px_#00C5CD] focus:border-[#00CED1]" value={item.id}
                                         {...register("tinhtrang", {
                                             required: true
                                         })}
@@ -99,6 +99,18 @@ const AddProduct = () => {
                     type="text"
                     className="w-full border border-[#B5B5B5] rounded h-[45px] pl-[10px] mt-[10px] focus:outline-[#00C5CD] transition-all duration-300 focus:shadow-[0_0_10px_#00C5CD] focus:border-[#00CED1]" placeholder="Nhập ảnh sản phẩm"
                     {...register("imageProduct", {
+                        required: true,
+                    })}
+                    />
+                </div>
+                <div className="mb-3 mt-[20px]">
+                    <label htmlFor="exampleInputPassword1" className="form-label font-[Poppins] text-[16px]">
+                    Size <span className="text-red-500">(*)  {errors.size&&<span className="text-[15px] text-red-600">Size không được để trống</span>}</span>
+                    </label>
+                    <input
+                    type="text"
+                    className="w-full border border-[#B5B5B5] rounded h-[45px] pl-[10px] mt-[10px] focus:outline-[#00C5CD] transition-all duration-300 focus:shadow-[0_0_10px_#00C5CD] focus:border-[#00CED1]" placeholder="Nhập ảnh sản phẩm"
+                    {...register("size", {
                         required: true,
                     })}
                     />

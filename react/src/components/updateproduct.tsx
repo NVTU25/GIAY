@@ -118,6 +118,18 @@ const UpdateProduct = () => {
                 </div>
                 <div className="mb-3 mt-[20px]">
                     <label htmlFor="exampleInputPassword1" className="form-label font-[Poppins] text-[16px]">
+                    Size <span className="text-red-500">(*)  {errors.size&&<span className="text-[15px] text-red-600">Size không được để trống</span>}</span>
+                    </label>
+                    <input
+                    type="text"
+                    className="w-full border border-[#B5B5B5] rounded h-[45px] pl-[10px] mt-[10px] focus:outline-[#00C5CD] transition-all duration-300 focus:shadow-[0_0_10px_#00C5CD] focus:border-[#00CED1]" placeholder="Nhập ảnh sản phẩm"
+                    {...register("size", {
+                        required: true,
+                    })}
+                    />
+                </div>
+                <div className="mb-3 mt-[20px]">
+                    <label htmlFor="exampleInputPassword1" className="form-label font-[Poppins] text-[16px]">
                     Mô tả sản phẩm <span className="text-red-500">(*) {errors.discription&&<span className="text-[15px] text-red-600">Mô tả không được để trống !</span>}</span>
                     </label> <br />
                     <textarea rows={4} className="w-full border border-[#B5B5B5] rounded pl-[10px] pt-[10px] focus:outline-[#00C5CD] transition-all duration-300 focus:shadow-[0_0_10px_#00C5CD] focus:border-[#00CED1]" placeholder="Nhập mô tả sản phẩm..." {...register("discription", {

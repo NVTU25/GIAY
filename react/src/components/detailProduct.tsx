@@ -126,7 +126,9 @@ const DetailProduct = () => {
             <p className='block mb-[5px] pl-[40px] h-[60px] border-r-2 border-r-[#ccc]'></p>
             <p className='text-[13px] text-black ml-[10px]'>Kho hàng: <span className='font-bold text-[#00AA00] uppercase text-[11px]'>còn hàng</span></p>
             <span className='mr-[20px] ml-[240px]'>
-              <img className='w-[70px]' src={category?.imageCategory} alt="" />
+              <Link to={`/product/category/${category?.id}`}>
+                <img className='w-[70px] cursor-pointer' src={category?.imageCategory} alt="" />
+              </Link>
             </span>
           </div>
           <div className='w-full mt-[20px]'>

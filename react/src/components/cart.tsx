@@ -12,35 +12,41 @@ const Cart = () => {
     }, []);
     // khi click vào nút tăng sản phẩm
     const tangQuantity = (id:any, size:any) => {
-        setCart(prevCart => 
-            prevCart.map(item => 
+        setCart(prevCart => {
+            const updateCart = prevCart.map(item => 
                 item.id === id && item.size === size
                 ? { ...item, quantity: item.quantity + 1}
                 : item
             )
-        )
+            saveCart(updateCart);
+            return updateCart;
+        })
     }
     // đây là giảm sản phẩmphẩm
     const giamQuantity = (id:any, size:any) => {
-        setCart(prevCart => 
-            prevCart.map(item => 
+        setCart(prevCart => {
+            const updateCart = prevCart.map(item => 
                 item.id === id && item.size === size
                 ? {...item, quantity: item.quantity - 1}
                 : item
             )
-        )
+            saveCart(updateCart);
+            return updateCart;
+        })
     }
     // đây là khi nhập số lượng
     const handleInput = (e:any, id:any, size:any) => {
         const newQuantity = parseInt(e.target.value);
         if ( newQuantity > 1) {
-            setCart(prevCart => 
-                prevCart.map(item => 
+            setCart(prevCart => {
+                const upadteCart = prevCart.map(item => 
                     item.id === id && item.size === size
                     ? {...item, quantity: newQuantity}
                     : item
                 )
-            )
+                saveCart(upadteCart);
+                return(upadteCart);
+            })
         }
     }
     // đây là hàm chặn
@@ -55,7 +61,10 @@ const Cart = () => {
     };
     // tổng tiền
     const totalPrice = cart.reduce((total, item) => total + item.price * item.quantity, 0);
-    
+    const saveCart = (cart:any) => {
+        const token = localStorage.getItem("token");
+        localStorage.setItem(`cart_${token}`, JSON.stringify(cart));
+    }
     return (
         <div className='mt-[130px] min-h-[300px]'>
             <div className='w-full h-[70px] flex items-center bg-[#EEEEEE]'>
@@ -115,7 +124,7 @@ const Cart = () => {
                                                     {/* Nút xóa sản phẩm */}
                                                     <button 
                                                         type="button"
-                                                        className="w-[40px] text-[13px] h-[40px] flex items-center justify-center bg-red-500 text-white hover:bg-red-600"
+                                                        className="w-[40px] text-[13px] h-[40px] flex cursor-pointer items-center justify-center bg-red-500 text-white hover:bg-red-600"
                                                         onClick={() => removeItem(item.id, item.size)}
                                                     >
                                                         ✖

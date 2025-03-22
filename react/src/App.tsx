@@ -15,8 +15,11 @@ import ClientLayout from "./layout/client";
 import ListProductClient from "./components/listProductClient";
 import SingupClinet from "./components/signup";
 import SigninClient from "./components/signin";
+<<<<<<< HEAD
 import DetailProduct from "./components/detailProduct";
 import Cart from "./components/cart";
+=======
+>>>>>>> 1b95aa443e990a244ae842f28fe41e24777231d3
 
 
 
@@ -35,8 +38,11 @@ function App() {
       {path: '', element: <ListProductClient/> },
       {path: 'signup', element: <SingupClinet/> },
       {path: 'signin', element: <SigninClient/> },
+<<<<<<< HEAD
       {path: 'product/:id', element: <DetailProduct/> },
       {path: 'cart', element: <Cart/>},
+=======
+>>>>>>> 1b95aa443e990a244ae842f28fe41e24777231d3
      ]}
   ]);
   return (

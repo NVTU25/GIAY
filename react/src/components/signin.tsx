@@ -10,8 +10,12 @@ const SigninClient = () => {
   const onSubmit = async (user: ILoginForm) => {
     try {
       const newUser = { ...user, role: "user"}
+<<<<<<< HEAD
       const { data } = await axios.post(`http://localhost:3000/login`,newUser);
       localStorage.setItem("token", data.accessToken, );
+=======
+      await axios.post(`http://localhost:3000/login`,newUser);
+>>>>>>> 1b95aa443e990a244ae842f28fe41e24777231d3
       toast.success("Đăng nhập thành công!");
       nav("/");
     } catch (error: any) {

@@ -277,6 +277,7 @@
       "confirmPassword": "123456",
       "role": "user",
       "id": 1
+<<<<<<< HEAD
     },
     {
       "email": "huong@gmail.com",
@@ -286,6 +287,8 @@
       "confirmPassword": "1234567",
       "role": "user",
       "id": 2
+=======
+>>>>>>> 1b95aa443e990a244ae842f28fe41e24777231d3
     }
   ]
 }

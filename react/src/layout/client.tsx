@@ -7,12 +7,13 @@ const ClientLayout = () => {
   const location = useLocation();
   const hideSlideShows = matchPath('/signup/*', location.pathname);
   const hideSlideShowSignin = matchPath('/signin/*', location.pathname);
-  const hideSlideShowDetailProduct = matchPath('/product/:id*', location.pathname);
+  const hideSlideShowDetailProduct = matchPath('/product/:id/*', location.pathname);
   const hideSlideShowCart = matchPath('/cart/*', location.pathname);
+  const hideSlideShowAccount = matchPath('/account/*', location.pathname);
   return (
     <main className='w-[100%] mx-auto max-h-[3560px] bg-[#fff]'>
       <HeaderClient/>
-      {!hideSlideShows && !hideSlideShowSignin && !hideSlideShowDetailProduct && !hideSlideShowCart && <SlideShows />}
+      {!hideSlideShows && !hideSlideShowSignin && !hideSlideShowDetailProduct && !hideSlideShowCart && !hideSlideShowAccount && <SlideShows />}
       <div className='w-full mx-auto mt-[40px]'>
         <Outlet/>
       </div>

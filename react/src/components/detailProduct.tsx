@@ -76,7 +76,7 @@ const DetailProduct = () => {
       quantity: 1,
     };
     
-    const cart = JSON.parse(localStorage.getItem(`cart_${token}`) || "[]")
+    const cart = JSON.parse(localStorage.getItem(`cart_${token}`) || "[]");
     
     const exitCart = cart.findIndex((item: any) => item.id === product.id && item.size === selectedSize);
     if (exitCart !== -1) {

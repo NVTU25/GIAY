@@ -38,7 +38,9 @@ const HeaderClient = () => {
                         <FontAwesomeIcon className="text-[26px] text-[#fff] cursor-pointer ml-[40px]" icon={faUser} />
                         <div className="absolute top-[30px] left-0 w-[160px] bg-[#fff] rounded-md text-black shadow-lg p-2
                                         opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 [&_a]:text-[13px]">
-                            <a href="" className="block px-3 py-2 text-sm hover:bg-gray-200">Thông tin tài khoản</a>
+                            <Link to={'./account'}>
+                                <a href="" className="block px-3 py-2 text-sm hover:bg-gray-200">Tài khoản của tôi</a>
+                            </Link>
                             <Link to={'./signin'} >
                                 <a href="" className="block px-3 py-2 text-sm hover:bg-gray-200">Đăng nhập</a>
                             </Link>

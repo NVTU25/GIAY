@@ -4,7 +4,8 @@ import axios from "axios";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 
-const SignupClient = () => {
+const SignupClient: React.FC = () => {
+ 
   const { register, handleSubmit, formState: { errors }, watch } = useForm<IUserForm>();
   const nav = useNavigate();
   const onSubmit = async (user: IUserForm) => {
@@ -60,6 +61,18 @@ const SignupClient = () => {
               {...register("phone", { required: true, pattern: /^0[0-9]{9}$/ })}
             />
             {errors.phone && <p className="text-red-500 text-xs mt-1">Số điện thoại không hợp lệ.</p>}
+          </div>
+          
+          {/* Địa chỉ */}
+          <div>
+            <label className="block text-sm font-semibold text-gray-600">
+              Địa chỉ <span className="text-red-500">*</span>
+            </label>
+            <input
+              type="text"
+              className="w-full mt-1 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              {...register("address", { required: true })}
+            />
           </div>
 
           {/* Password */}

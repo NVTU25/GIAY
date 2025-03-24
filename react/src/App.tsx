@@ -13,12 +13,13 @@ import Listproduct from "./components/listproducts";
 import UpdateProduct from "./components/updateproduct";
 
 import ListProductClient from "./components/listProductClient";
-import SingupClinet from "./components/signup";
+import SingupClient from "./components/signup";
 import SigninClient from "./components/signin";
 import DetailProduct from "./components/detailProduct";
 import Cart from "./components/cart";
 import ClientLayout from "./layout/client";
 import ProductCategpry from "./components/productCategpry";
+import Account from "./components/account";
 
 
 
@@ -35,11 +36,12 @@ function App() {
      ]},
      {path: '/', element: <ClientLayout/>, children: [
       {path: '', element: <ListProductClient/> },
-      {path: 'signup', element: <SingupClinet/> },
+      {path: 'signup', element: <SingupClient/> },
       {path: 'signin', element: <SigninClient/> },
       {path: 'product/:id', element: <DetailProduct/> },
       {path: 'cart', element: <Cart/>},
       {path: 'product/category/:id', element: <ProductCategpry/> },
+      {path: 'account', element: <Account />},
      ]}
   ]);
   return (

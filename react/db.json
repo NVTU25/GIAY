@@ -286,6 +286,16 @@
       "confirmPassword": "1234567",
       "role": "user",
       "id": 2
+    },
+    {
+      "email": "dinhthibinhbx@icloud.com",
+      "password": "$2a$10$LPPrXHMzT0hfnhtyRws3KeDjg8xenwukPNqzKFC51f1iRfRekhrru",
+      "username": "admin",
+      "phone": "0348892533",
+      "address": "Thôn Bột Xuyên, Bột Xuyên, Mỹ Đức, Hà Nội",
+      "confirmPassword": "123456",
+      "role": "user",
+      "id": 3
     }
   ]
 }

@@ -11,7 +11,7 @@ const SigninClient = () => {
     try {
       const newUser = { ...user, role: "user"}
       const { data } = await axios.post(`http://localhost:3000/login`,newUser);
-      localStorage.setItem("token", data.accessToken, );
+      localStorage.setItem("token", data.accessToken);
       toast.success("Đăng nhập thành công!");
       nav("/");
     } catch (error: any) {

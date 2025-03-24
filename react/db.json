@@ -271,31 +271,13 @@
   "users": [
     {
       "email": "giangtqph52177@gmail.com",
-      "password": "$2a$10$oS4lVzsZwfDy4P6YfqK.BeQyrr9LFdfQql.TH4DtoarqOyMIOPSee",
-      "username": "quanggiang",
-      "phone": "0123456789",
-      "confirmPassword": "123456",
-      "role": "user",
-      "id": 1
-    },
-    {
-      "email": "huong@gmail.com",
-      "password": "$2a$10$Cixqrr8RGJ/k4D1.yOQ/bejwd/jTrw9PkkmqxTk1/843aKwszvLgy",
-      "username": "giangtqph",
-      "phone": "0348892533",
-      "confirmPassword": "1234567",
-      "role": "user",
-      "id": 2
-    },
-    {
-      "email": "dinhthibinhbx@icloud.com",
-      "password": "$2a$10$LPPrXHMzT0hfnhtyRws3KeDjg8xenwukPNqzKFC51f1iRfRekhrru",
-      "username": "admin",
+      "password": "$2a$10$sS36wWu60IjL9ZhkPAtEJuR1XPMj6zB9gpl7HbdRmAlFPch5bZ99e",
+      "username": "trần quang giang",
       "phone": "0348892533",
       "address": "Thôn Bột Xuyên, Bột Xuyên, Mỹ Đức, Hà Nội",
       "confirmPassword": "123456",
       "role": "user",
-      "id": 3
+      "id": 1
     }
   ]
 }

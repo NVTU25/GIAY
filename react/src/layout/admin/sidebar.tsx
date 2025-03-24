@@ -1,3 +1,5 @@
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 import { useState } from "react";
 import { Link } from 'react-router-dom';
@@ -102,12 +104,14 @@ const AdminSidebar = () => {
                         )}
                     </li>                     
                     <li>
-                        <a
-                            className="flex items-center gap-2 p-2 text-gray-700 hover:bg-gray-200 rounded-md transition-all"
-                            href="#"
-                        >
-                            📊 Thống kê
-                        </a>
+                        <Link to={'listUser'}>
+                            <a
+                                className="flex items-center gap-2 p-2 text-gray-700 hover:bg-gray-200 rounded-md transition-all"
+                                href="#"
+                            >
+                                <FontAwesomeIcon icon={faUser} /> Danh sách user
+                            </a>
+                        </Link>  
                     </li>
                 </ul>
             </div>

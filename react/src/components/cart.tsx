@@ -49,10 +49,7 @@ const Cart = () => {
             })
         }
     }
-    // đây là hàm chặn
-    const handleUpdateQuantity = (e:any, id:any, size:any) => {
-        e.preventDefault();
-    }
+    
     // đây là xóa
     const removeItem = (id:any, size:any) => {
         if(confirm("Bạn chắc chứ ?")) {
@@ -100,7 +97,7 @@ const Cart = () => {
                                                 <p className='mt-[0px]'>Chọn size: {item.size}</p>
                                             </td>
                                             <td>
-                                                <form onSubmit={(e) => handleUpdateQuantity(e, item.id, item.size)} className='flex items-center' action="">
+                                                <form  className='flex items-center' action="">
                                                     {/* Ô nhập số lượng */}
                                                     <input 
                                                         className="w-[50px] h-[40px] text-center border border-[#ccc] focus:outline-none"

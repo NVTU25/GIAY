@@ -20,6 +20,7 @@ import Cart from "./components/cart";
 import ClientLayout from "./layout/client";
 import ProductCategpry from "./components/productCategpry";
 import Account from "./components/account";
+import ListUser from "./components/listUser";
 
 
 
@@ -33,6 +34,7 @@ function App() {
       {path: 'addProduct', element:<AddProduct/>},
       {path: 'listProduct', element:<Listproduct/>},
       {path: 'updateProduct/:id', element:<UpdateProduct/>},
+      {path: 'listUser', element:<ListUser/>},
      ]},
      {path: '/', element: <ClientLayout/>, children: [
       {path: '', element: <ListProductClient/> },

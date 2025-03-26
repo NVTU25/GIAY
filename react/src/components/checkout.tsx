@@ -153,11 +153,11 @@ const Checkout = () => {
                         <div className='w-full flex '>
                             <span>
                                 <h3>PHƯƠNG THỨC GIAO HÀNG</h3>
-                                <input type="radio" id='giaohang' value={'Miễn phí giao hàng'} {...register("phuongthucnhanhang")}/> <label htmlFor=""><FontAwesomeIcon icon={faTruckFast} /> Miễn phí giao hàng</label>
+                                <input className='cursor-pointer' type="radio" id='giaohang' value={'Miễn phí giao hàng'} {...register("phuongthucnhanhang")}/> <label htmlFor=""><FontAwesomeIcon icon={faTruckFast} /> Miễn phí giao hàng</label>
                             </span>
                             <span className='ml-[300px]'>
                                 <h3>PHƯƠNG THỨC THANH TOÁN</h3>
-                                <input type="radio" id='nhanhang' value={'Thanh toán khi nhận hàng'} {...register("phuongthucthanhtoan")}/> <label htmlFor=""><FontAwesomeIcon icon={faTruckFast} /> Thanh toán khi nhận hàng</label>
+                                <input className='cursor-pointer' type="radio" id='nhanhang' value={'Thanh toán khi nhận hàng'} {...register("phuongthucthanhtoan")}/> <label htmlFor=""><FontAwesomeIcon icon={faTruckFast} /> Thanh toán khi nhận hàng</label>
                             </span>
                         </div>
                         <table className='w-[97%] mt-[50px] border border-[#ccc]'>

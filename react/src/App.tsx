@@ -23,6 +23,7 @@ import Account from "./components/account";
 import ListUser from "./components/listUser";
 import Checkout from "./components/checkout";
 import OrderSuccess from "./components/orderSuccess";
+import ListOrderUser from "./components/listOrderUser";
 
 
 
@@ -47,7 +48,8 @@ function App() {
       {path: 'product/category/:id', element: <ProductCategpry/> },
       {path: 'account', element: <Account />},
       {path: 'checkout', element: <Checkout />},
-      {path: 'ordersuccess/:id', element: <OrderSuccess />}
+      {path: 'ordersuccess/:id', element: <OrderSuccess />},
+      {path: 'listOrderUser/:id', element: <ListOrderUser />}
      ]}
   ]);
   return (

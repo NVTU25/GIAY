@@ -1,6 +1,7 @@
 import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const Account = () => {
@@ -76,7 +77,9 @@ const Account = () => {
           </div>
           <div className="flex justify-between mt-[10px]">
             <a href="" className="text-[12px] font-sans group hover:underline">Cập nhập tài khoản</a>
-            <a href="" className="text-[12px] font-sans group hover:underline">Lịch sử đặt hàng</a>
+            <Link to={`/listOrderUser/${userOne?.id}`}>
+             <a href="" className="text-[12px] font-sans group hover:underline">Lịch sử đặt hàng</a>
+            </Link>
           </div>
         </form>
       </div>

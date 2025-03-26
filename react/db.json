@@ -278,6 +278,16 @@
       "confirmPassword": "123456",
       "role": "user",
       "id": 1
+    },
+    {
+      "email": "huong@gmail.com",
+      "password": "$2a$10$5dSEelbjCJnAjX9dqrMUzOJ5qYmgnC6um2T69LD3DMwNL5v/74Gt6",
+      "username": "cao minh hướng",
+      "phone": "0348892533",
+      "address": "Cầu Diễn",
+      "confirmPassword": "123456",
+      "role": "user",
+      "id": 2
     }
   ],
   "orders": [
@@ -314,6 +324,33 @@
       ],
       "total": 9150000,
       "id": 1
+    },
+    {
+      "username": "Cao minh hướng",
+      "phone": "0123456789",
+      "address": "Cầu diễn Hà Nội",
+      "phuongthucnhanhang": "Miễn phí giao hàng",
+      "phuongthucthanhtoan": "Thanh toán khi nhận hàng",
+      "userId": "2",
+      "trangthai": "Đang chuẩn bị hàng",
+      "items": [
+        {
+          "nameProduct": "Giày Nike Court Shot Nam - Trắng Xanh",
+          "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-court-shot-nam-trang-xanh-01-1600x1600.jpg",
+          "priceProduct": "2190000",
+          "quantity": 2,
+          "size": "40"
+        },
+        {
+          "nameProduct": "Giày Nike Court Shot Nam - Trắng Xanh",
+          "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-court-shot-nam-trang-xanh-01-1600x1600.jpg",
+          "priceProduct": "2190000",
+          "quantity": 1,
+          "size": "41"
+        }
+      ],
+      "total": 6570000,
+      "id": 2
     }
   ]
 }

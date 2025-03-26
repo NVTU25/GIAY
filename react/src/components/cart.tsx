@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 
 const Cart = () => {
@@ -53,7 +53,12 @@ const Cart = () => {
     // đây là xóa
     const removeItem = (id:any, size:any) => {
         if(confirm("Bạn chắc chứ ?")) {
-            setCart(prevCart => prevCart.filter(item => !(item.id === id && item.size === size)));
+            setCart(prevCart => {
+                const updateCart = prevCart.filter(item => !(item.id === id && item.size === size ));
+                saveCart(updateCart);
+                return(updateCart);
+                
+            });
         }
     };
     // tổng tiền
@@ -145,9 +150,11 @@ const Cart = () => {
                                         <span className='[&_p]:pl-[30px] [&_p]:mt-[10px]'>
                                             <p className='font-semibold text-[14px]'>Tổng thanh toán: <span className='ml-[110px]'>{totalPrice.toLocaleString()}<u>đ</u></span></p>
                                         </span>
-                                        <button className='mt-[30px] mb-[30px] ml-[30px] mr-[30px] w-[320px] h-[45px] cursor-pointer text-[#fff] font-sans font-semibold bg-[#cc041a] transition-all duration-300 group hover:bg-[#e2293d] border'>
-                                            Thanh toán
-                                        </button>
+                                        <Link to={`/checkOut`}>
+                                            <button className='mt-[30px] mb-[30px] ml-[30px] mr-[30px] w-[320px] h-[45px] cursor-pointer text-[#fff] font-sans font-semibold bg-[#cc041a] transition-all duration-300 group hover:bg-[#e2293d] border'>
+                                                Thanh toán
+                                            </button>
+                                        </Link>
                                     </div>
                                 </div>
                            

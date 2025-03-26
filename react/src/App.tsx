@@ -21,6 +21,8 @@ import ClientLayout from "./layout/client";
 import ProductCategpry from "./components/productCategpry";
 import Account from "./components/account";
 import ListUser from "./components/listUser";
+import Checkout from "./components/checkout";
+import OrderSuccess from "./components/orderSuccess";
 
 
 
@@ -44,6 +46,8 @@ function App() {
       {path: 'cart', element: <Cart/>},
       {path: 'product/category/:id', element: <ProductCategpry/> },
       {path: 'account', element: <Account />},
+      {path: 'checkout', element: <Checkout />},
+      {path: 'ordersuccess/:id', element: <OrderSuccess />}
      ]}
   ]);
   return (

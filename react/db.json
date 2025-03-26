@@ -279,5 +279,41 @@
       "role": "user",
       "id": 1
     }
+  ],
+  "orders": [
+    {
+      "username": "trần quang giang",
+      "phone": "0348892533",
+      "address": "Thôn Bột Xuyên, Bột Xuyên, Mỹ Đức, Hà Nội",
+      "phuongthucnhanhang": "Miễn phí giao hàng",
+      "phuongthucthanhtoan": "Thanh toán khi nhận hàng",
+      "userId": "1",
+      "trangthai": "Đang chuẩn bị hàng",
+      "items": [
+        {
+          "nameProduct": "Giày Puma Rebound v6 Low Nam - Trắng Xanh",
+          "imageProduct": "https://myshoes.vn/image/cache/catalog/2024_11/puma/giay-puma-rebound-v6-low-nam-trang-xanh-01-1600x1600.jpg",
+          "priceProduct": "1790000",
+          "quantity": 2,
+          "size": "39"
+        },
+        {
+          "nameProduct": "Giày Puma Rebound v6 Low Nam - Trắng Xanh",
+          "imageProduct": "https://myshoes.vn/image/cache/catalog/2024_11/puma/giay-puma-rebound-v6-low-nam-trang-xanh-01-1600x1600.jpg",
+          "priceProduct": "1790000",
+          "quantity": 2,
+          "size": "41"
+        },
+        {
+          "nameProduct": "Giày đá bóng Nike Air Zoom Mercurial Vapor ",
+          "imageProduct": "https://product.hstatic.net/1000061481/product/2-01-01-02-02-02-02-02-02-01-02-02-02-01-02-02-01-02-02-02-02-02-02-02_1bd27c0528924292aa9a011524acd502_1024x1024.jpg",
+          "priceProduct": "1990000",
+          "quantity": 1,
+          "size": "41"
+        }
+      ],
+      "total": 9150000,
+      "id": 1
+    }
   ]
 }

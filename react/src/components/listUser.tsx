@@ -44,6 +44,12 @@ function ListUser() {
             align: "center"
         },
         {
+            title: "Phone",
+            dataIndex: "phone",
+            key: "phone",
+            align: "center"
+        },
+        {
             title: "Address",
             dataIndex: "address",
             key: "address",

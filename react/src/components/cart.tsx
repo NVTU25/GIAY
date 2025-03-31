@@ -1,71 +1,94 @@
+import axios from 'axios';
+import { jwtDecode } from 'jwt-decode';
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 const Cart = () => {
     const [ cart, setCart ] = useState<any[]>([]);
     useEffect(() => {
-        const token = localStorage.getItem("token");
-        const getCartToken = localStorage.getItem(`cart_${token}`);
-        if (getCartToken) {
-            setCart(JSON.parse(getCartToken));
+        const getOrderId = async () => {
+            const token = localStorage.getItem("token");
+            if (!token) {
+                return;
+            } 
+            const userInfo = jwtDecode(token);
+            const userId:any = userInfo.sub;
+            const { data } = await axios.get(`http://localhost:3000/carts?userId=${userId}`);
+            setCart(data);
         }
+        getOrderId();
     }, []);
     // khi click vào nút tăng sản phẩm
-    const tangQuantity = (id:any, size:any) => {
+    const tangQuantity = async (id:any, size:any) => {
         setCart(prevCart => {
-            const updateCart = prevCart.map(item => 
+            return prevCart.map(item => 
                 item.id === id && item.size === size
                 ? { ...item, quantity: item.quantity + 1}
                 : item
-            )
-            saveCart(updateCart);
-            return updateCart;
-        })
+            );
+        });
+        try {
+            const item = cart.find(item => item.id === id && item.size === size);
+            if (item) {
+                await saveCart({...item, quantity: item.quantity + 1}, id);
+            }
+        } catch (error:any) {
+            toast.error(error);
+        }
     }
     // đây là giảm sản phẩmphẩm
-    const giamQuantity = (id:any, size:any) => {
+    const giamQuantity = async (id:any, size:any) => {
         setCart(prevCart => {
-            const updateCart = prevCart.map(item => 
+            return prevCart.map(item => 
                 item.id === id && item.size === size
                 ? {...item, quantity: item.quantity - 1}
                 : item
-            )
-            saveCart(updateCart);
-            return updateCart;
-        })
+            );
+        });
+        try {
+            const item = cart.find(item => item.id === id && item.size === size);
+            if (item) {
+                await saveCart({...item, quantity: item.quantity - 1}, id);
+            }
+        } catch (error:any) {
+            toast.error(error);
+        }
     }
     // đây là khi nhập số lượng
-    const handleInput = (e:any, id:any, size:any) => {
+    const handleInput = async (e:any, id:any, size:any) => {
         const newQuantity = parseInt(e.target.value);
         if ( newQuantity > 1) {
             setCart(prevCart => {
-                const upadteCart = prevCart.map(item => 
+                return prevCart.map(item => 
                     item.id === id && item.size === size
                     ? {...item, quantity: newQuantity}
                     : item
                 )
-                saveCart(upadteCart);
-                return(upadteCart);
-            })
+            });
+        };
+        try {
+            const item = cart.find(item => item.id === id && item.size === size);
+            if (item) {
+                await saveCart({...item, quantity: newQuantity}, id)
+            }
+        } catch (error:any) {
+            toast.error(error);
         }
     }
     
     // đây là xóa
-    const removeItem = (id:any, size:any) => {
+    const removeItem = async (id:any) => {
         if(confirm("Bạn chắc chứ ?")) {
-            setCart(prevCart => {
-                const updateCart = prevCart.filter(item => !(item.id === id && item.size === size ));
-                saveCart(updateCart);
-                return(updateCart);
-                
-            });
+            await axios.delete(`http://localhost:3000/carts/${id}`);
+            toast.success('Xóa thành công');
+            setCart(prev => prev.filter(item => item.id !== id));
         }
     };
     // tổng tiền
     const totalPrice = cart.reduce((total, item) => total + item.price * item.quantity, 0);
-    const saveCart = (cart:any) => {
-        const token = localStorage.getItem("token");
-        localStorage.setItem(`cart_${token}`, JSON.stringify(cart));
+    const saveCart = async (values:any,id:any) => {
+        await axios.patch(`http://localhost:3000/carts/${id}`,values);
     }
     return (
         <div className='mt-[130px] min-h-[300px]'>
@@ -96,7 +119,7 @@ const Cart = () => {
                                                 <img src={item.image} alt="" />
                                             </td>
                                             <td className='[&_p]:text-[14px] '>
-                                                <Link to={`/product/${item.id}`}>
+                                                <Link to={`/product/${item.productId}`}>
                                                     <p className='text-[#0f3a9c] cursor-pointer'>{item.nameProduct}</p>
                                                 </Link>
                                                 <p className='mt-[0px]'>Chọn size: {item.size}</p>
@@ -127,7 +150,7 @@ const Cart = () => {
                                                     <button 
                                                         type="button"
                                                         className="w-[40px] text-[13px] h-[40px] flex cursor-pointer items-center justify-center bg-red-500 text-white hover:bg-red-600"
-                                                        onClick={() => removeItem(item.id, item.size)}
+                                                        onClick={() => removeItem(item.id)}
                                                     >
                                                         ✖
                                                     </button>

@@ -11,83 +11,22 @@ import { IOrderForm } from '../interface/order';
 
 const Checkout = () => {
     const [ cart,setCart ] = useState<any[]>([]);
-    const [ userOne,setUserOne ] = useState<any>(null);
     const nav = useNavigate();
     useEffect(() => {
         const token = localStorage.getItem("token");
-        const getCartToken = localStorage.getItem(`cart_${token}`);
-        if (getCartToken) {
-            setCart(JSON.parse(getCartToken));
-        }
-        // token
         if (!token) {
             console.log("Không có token");
             return;
         }
         const userInfo = jwtDecode(token);
         const userId:any = userInfo.sub;
-        const getOneUser = async (id:number|string) => {
-        try {
-            const { data } = await axios.get(`http://localhost:3000/users/${id}`);
-            setUserOne(data);
-        } catch (error:any) {
-            toast.error(error)
+        const getCart= async () => {
+            const { data } = await axios.get(`http://localhost:3000/carts?userId=${userId}`);
+            setCart(data);
         }
-        }
-        getOneUser(userId);
+        getCart();
     }, []);
-    // khi click vào nút tăng sản phẩm
-    const tangQuantity = (id:any, size:any) => {
-        setCart(prevCart => {
-            const updateCart = prevCart.map(item => 
-                item.id === id && item.size === size
-                ? { ...item, quantity: item.quantity + 1}
-                : item
-            )
-            saveCart(updateCart);
-            return updateCart;
-        })
-    }
-    // đây là giảm sản phẩmphẩm
-    const giamQuantity = (id:any, size:any) => {
-        setCart(prevCart => {
-            const updateCart = prevCart.map(item => 
-                item.id === id && item.size === size
-                ? {...item, quantity: item.quantity - 1}
-                : item
-            )
-            saveCart(updateCart);
-            return updateCart;
-        })
-    }
-    // đây là khi nhập số lượng
-    const handleInput = (e:any, id:any, size:any) => {
-        const newQuantity = parseInt(e.target.value);
-        if ( newQuantity > 1) {
-            setCart(prevCart => {
-                const upadteCart = prevCart.map(item => 
-                    item.id === id && item.size === size
-                    ? {...item, quantity: newQuantity}
-                    : item
-                )
-                saveCart(upadteCart);
-                return(upadteCart);
-            })
-        }
-    }
-    
-    // đây là xóa
-    const removeItem = (id:any, size:any) => {
-        if(confirm("Bạn chắc chứ ?")) {
-            setCart(prevCart => prevCart.filter(item => !(item.id === id && item.size === size)));
-        }
-    };
-    // tổng tiền
     const totalPrice = cart.reduce((total, item) => total + item.price * item.quantity, 0);
-    const saveCart = (cart:any) => {
-        const token = localStorage.getItem("token");
-        localStorage.setItem(`cart_${token}`, JSON.stringify(cart));
-    }
     // đặt hàng
     const { register,handleSubmit } = useForm<IOrderForm>();
     const onSubmit = async (order:IOrderForm) => {
@@ -108,13 +47,15 @@ const Checkout = () => {
                     quantity: item.quantity,
                     size: item.size
                 })), 
-                total: cart.reduce((total, item) => total + item.price * item.quantity, 0)
+                total: cart.reduce((total, item) => total + item.price * item.quantity, 0),
+                date: Date()
             };
             const { data } = await axios.post(`http://localhost:3000/orders`, newOrder);
             toast.success("Đặt hàng thành công!");
             nav(`/orderSuccess/${data.id}`);
-            setCart([]); // Xóa giỏ hàng sau khi đặt hàng
-            localStorage.removeItem(`cart_${token}`);
+            // xóa sản phẩm khỏ giỏ hàng
+            await Promise.all(cart.map(item => axios.delete(`http://localhost:3000/carts/${item.id}`)));
+            setCart([]);
         } catch (error) {
             toast.error('Đặt hàng thất bại');
         }
@@ -149,15 +90,11 @@ const Checkout = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[70%] mt-[30px] ml-[20px]'>
-                        <div className='w-full flex '>
-                            <span>
-                                <h3>PHƯƠNG THỨC GIAO HÀNG</h3>
-                                <input className='cursor-pointer' type="radio" id='giaohang' value={'Miễn phí giao hàng'} {...register("phuongthucnhanhang")}/> <label htmlFor=""><FontAwesomeIcon icon={faTruckFast} /> Miễn phí giao hàng</label>
-                            </span>
+                    <div className='w-[70%] ml-[20px]'>
+                        <div className='w-full '>
                             <span className='ml-[300px]'>
                                 <h3>PHƯƠNG THỨC THANH TOÁN</h3>
-                                <input className='cursor-pointer' type="radio" id='nhanhang' value={'Thanh toán khi nhận hàng'} {...register("phuongthucthanhtoan")}/> <label htmlFor=""><FontAwesomeIcon icon={faTruckFast} /> Thanh toán khi nhận hàng</label>
+                                <input className='cursor-pointer' type="radio" id='thanhtoan' value={'Thanh toán khi nhận hàng'} {...register("phuongthucthanhtoan")}/> <label htmlFor=""><FontAwesomeIcon icon={faTruckFast} /> Thanh toán khi nhận hàng</label>
                             </span>
                         </div>
                         <table className='w-[97%] mt-[50px] border border-[#ccc]'>
@@ -193,30 +130,8 @@ const Checkout = () => {
                                                     className="w-[50px] h-[40px] text-center border border-[#ccc] focus:outline-none"
                                                     type="number" 
                                                     value={item.quantity} 
-                                                    onChange={(e) => handleInput(e, item.id, item.size)} 
-                                                />
-                                                <span>
-                                                    <button onClick={() => tangQuantity(item.id, item.size)} type="button" className="w-[30px] text-[12px] h-[20px] border border-[#ccc] flex items-center justify-center bg-gray-100 hover:bg-gray-200">
-                                                        ▲
-                                                    </button>
-                                                    <button onClick={() => giamQuantity(item.id, item.size)} type="button" className="w-[30px] text-[12px] h-[20px] border border-[#ccc] flex items-center justify-center bg-gray-100 hover:bg-gray-200">
-                                                        ▼
-                                                    </button>
-                                                </span> 
-                                                {/* Nút cập nhật */}
-                                                    <button type="submit" className="w-[40px] h-[40px] border-r border-[#ccc] flex items-center justify-center bg-blue-500 text-white hover:bg-blue-600"
-                                                    >
-                                                        🔄
-                                                    </button>
-                                                    {/* Nút xóa sản phẩm */}
-                                                    <button 
-                                                        type="button"
-                                                        className="w-[40px] text-[13px] h-[40px] flex cursor-pointer items-center justify-center bg-red-500 text-white hover:bg-red-600"
-                                                        onClick={() => removeItem(item.id, item.size)}
-                                                    >
-                                                            ✖
-                                                    </button>
-                                                </form>
+                                                />   
+                                            </form>
                                             </td>
                                             <td className='text-[15px] text-gray-500'>
                                                 {parseInt(item.price).toLocaleString()} <u>đ</u>

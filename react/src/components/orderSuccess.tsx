@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import axios from "axios";
+import { FileText } from "lucide-react";
+import jsPDF from "jspdf";
+import "jspdf-autotable";
 
 const OrderSuccess = () => {
   const { id } = useParams();
@@ -18,7 +21,6 @@ const OrderSuccess = () => {
     };
     getOrderOne();
   }, [id]);
-
   return (
     <div className="mt-[170px] min-h-[300px] mb-[50px]">
       <div className="w-[650px] border mt-[30px] border-[#ccc] mx-auto flex flex-col items-center p-4">
@@ -72,6 +74,10 @@ const OrderSuccess = () => {
           <h3 className="text-lg font-semibold">💳 Phương thức thanh toán</h3>
           <p className="text-[14px] mt-[5px]">{userOrder?.phuongthucthanhtoan}</p>
         </div>
+        <button className="flex cursor-pointer ml-[380px] text-[16px] mt-[10px] gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-all duration-300 shadow-md">
+          <FileText size={20} />
+          <span>Xuất hóa đơn điện tử</span>
+        </button>
       </div>
     </div>
   );

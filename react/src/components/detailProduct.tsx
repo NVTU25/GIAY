@@ -5,6 +5,7 @@ import { toast } from 'react-toastify';
 import { IProduct } from '../interface/product';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar,faCartPlus,faPhone,faDollarSign  } from '@fortawesome/free-solid-svg-icons'
+import { jwtDecode } from 'jwt-decode';
 
 
 const DetailProduct = () => {
@@ -57,37 +58,49 @@ const DetailProduct = () => {
     getProductById();
   }, [id]);
   // xử lý giỏ hàng
-  const addToCart:any = () => {
+  const addToCart = async () => {
     if (!product) return;
-
     const token = localStorage.getItem("token");
     if (!token) {
       toast.error("Bạn phải đăng nhập để sử dụng chức năng");
       return;
     } 
-
-    // tạo đối tượng sản phẩm để thêm vào giỏ hàng
-    const cartItem = {
-      id: product.id,
-      nameProduct: product.nameProduct,
-      price: product.priceProduct,
-      image: image[0],
-      size: selectedSize,
-      quantity: 1,
-    };
-    
-    const cart = JSON.parse(localStorage.getItem(`cart_${token}`) || "[]");
-    
-    const exitCart = cart.findIndex((item: any) => item.id === product.id && item.size === selectedSize);
-    if (exitCart !== -1) {
-      cart[exitCart].quantity += 1;
-    }else {
-      cart.push(cartItem);
-    }
-
-    // lưu lại
-    localStorage.setItem(`cart_${token}`, JSON.stringify(cart));
-    toast.success("Sản phẩm đã được thêm vào giỏ hàng !");
+    const userInfo = jwtDecode(token);
+    const userId:any = userInfo.sub;
+    try {
+      const { data:cart } = await axios.get(`http://localhost:3000/carts?userId=${userId}`);
+      const exitCart = cart.findIndex((item: any) => item.productId === product.id && item.size === selectedSize);
+      const cartItem = {
+        productId: product.id,
+        nameProduct: product.nameProduct,
+        price: product.priceProduct,
+        image: image[0],
+        size: selectedSize,
+        quantity: 1,
+        userId: userId,
+      };
+      if (exitCart !== -1) {
+        const updateCart = {
+          ...cart[exitCart],
+          quantity: cart[exitCart].quantity + 1
+        }
+        await axios.put(`http://localhost:3000/carts/${cart[exitCart].id}`, updateCart);
+      }else {
+        const cartItem = {
+          productId: product.id,
+          nameProduct: product.nameProduct,
+          price: product.priceProduct,
+          image: image[0],
+          size: selectedSize,
+          quantity: 1,
+          userId: userId,
+        };
+        await axios.post(`http://localhost:3000/carts`,cartItem);
+      }
+      toast.success("Sản phẩm đã được thêm vào giỏ hàng !");
+    } catch (error) {
+      toast.error("Đã xảy ra lỗi khi thêm vào giỏ hàng!");
+    }    
   }
   return (
     <div className='mt-[130px] w-full mb-[40px]'>
@@ -154,7 +167,7 @@ const DetailProduct = () => {
             <FontAwesomeIcon className='w-[25px] text-[11px]' icon={faPhone} /> Hotline: <span className='ml-[10px] text-blue-900'>0348 892 533</span> 
           </span>
           <div className='button w-full flex mt-[10px]'>
-            <button onClick={addToCart} className='w-[400px] h-[40px] flex cursor-pointer items-center text-[15px] font-semibold font-sans justify-center bg-[#0a437f] text-[#fff]'>
+            <button onClick={() => addToCart()} className='w-[400px] h-[40px] flex cursor-pointer items-center text-[15px] font-semibold font-sans justify-center bg-[#0a437f] text-[#fff]'>
               <FontAwesomeIcon className='mr-[5px]' icon={faCartPlus} /> Thêm vào giỏ hàng
             </button>
             <button className='w-[200px] h-[40px] bg-red-600 text-[#fff] flex cursor-pointer items-center text-[15px] font-semibold font-sans justify-center'>

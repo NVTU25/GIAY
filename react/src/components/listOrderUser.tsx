@@ -12,6 +12,7 @@ const ListOrderUser = () => {
                 key: `${order.id}-${index}`,
                 id: order.id,
                 username: order.username,
+                trangthai: order.trangthai,
                 ...item
             }))
         )
@@ -55,6 +56,11 @@ const ListOrderUser = () => {
             title: "Người đặt hàng",
             dataIndex: "username",
             key: "username"
+        },
+        {
+            title: "Trạng thái hàng",
+            dataIndex: "trangthai",
+            key: "trangthai"
         },
     ] 
     return (

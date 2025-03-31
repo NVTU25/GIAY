@@ -5,9 +5,10 @@ import { useEffect, useState } from "react";
 import { ICategory } from "../../interface/category";
 import axios from "axios";
 import { toast } from "react-toastify";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const HeaderClient = () => {
     const [ category, setCategory ] = useState<ICategory[]>([]);
+    const nav = useNavigate();
     useEffect(() => {
         const getCategorys = async () => {
             try {
@@ -19,6 +20,10 @@ const HeaderClient = () => {
         }
         getCategorys();
     }, []);
+    const logout = () => {
+        localStorage.removeItem("token");
+        nav('/');
+    } 
     return (
         <header className="w-full fixed top-0 left-0 z-50 bg-[#0a437f] h-[130px] flex flex-col justify-around">
             <section className="w-full flex items-center justify-between pl-[10px] pr-[30px]">
@@ -47,6 +52,7 @@ const HeaderClient = () => {
                             <Link to={'./signup'}>
                                 <a href="" className="block px-3 py-2 text-sm hover:bg-gray-200">Đăng ký</a>
                             </Link>    
+                            <a href="" onClick={() => logout()} className="block px-3 py-2 text-sm hover:bg-gray-200">Đăng Xuất</a>  
                         </div>    
                     </div>
                     <Link to={'/cart'}>

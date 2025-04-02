@@ -1,10 +1,10 @@
 import { Link, useNavigate } from "react-router-dom";
-import { IUserForm } from "../interface/user";
 import axios from "axios";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
+import { IUserForm } from "../../interface/user";
 
-const SignupClient: React.FC = () => {
+const SignupClient = () => {
  
   const { register, handleSubmit, formState: { errors }, watch } = useForm<IUserForm>();
   const nav = useNavigate();

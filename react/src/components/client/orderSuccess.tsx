@@ -3,13 +3,17 @@ import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import axios from "axios";
 import { FileText } from "lucide-react";
-import jsPDF from "jspdf";
-import "jspdf-autotable";
+
 
 const OrderSuccess = () => {
   const { id } = useParams();
   const [userOrder, setUserOrder] = useState<any>(null);
-
+  const [status, setStatus] = useState([
+    { id: 1, value: "Chờ xác nhận" },
+    { id: 2, value: "Đang xử lý" },
+    { id: 3, value: "Đang giao" },
+    { id: 4, value: "Đã giao" },
+]);
   useEffect(() => {
     const getOrderOne = async () => {
       try {
@@ -21,6 +25,10 @@ const OrderSuccess = () => {
     };
     getOrderOne();
   }, [id]);
+  const getStatusName = (statusId:number) => {
+    const nameStatus = status.find(item => item.id === statusId); 
+    return nameStatus ? nameStatus.value : 'Không xác định';
+  }
   return (
     <div className="mt-[170px] min-h-[300px] mb-[50px]">
       <div className="w-[650px] border mt-[30px] border-[#ccc] mx-auto flex flex-col items-center p-4">
@@ -36,7 +44,9 @@ const OrderSuccess = () => {
             Mã đơn hàng: <strong>SKU{id}</strong>
           </p>
           <p className="text-[14px]">
-            Trạng thái đơn hàng: <strong>{userOrder?.trangthai}</strong>
+            Trạng thái đơn hàng: <span className={`px-3 py-1 rounded-full text-sm ${userOrder.trangthaiId === 4 ? 'bg-green-100 text-green-600' : 'bg-red-100 text-red-600' }`}>
+              {getStatusName(userOrder.trangthaiId)}
+            </span>
           </p>
 
           {/* Danh sách sản phẩm */}

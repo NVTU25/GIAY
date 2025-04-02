@@ -31,7 +31,7 @@
       "id": 6
     },
     {
-      "nameCategory": "Giày Jordan",
+      "nameCategory": "Giày Jordan ",
       "imageCategory": "https://i.pinimg.com/736x/42/48/ed/4248ed945c7ae125411a27e0bf378143.jpg",
       "id": 7
     }
@@ -292,83 +292,32 @@
   ],
   "orders": [
     {
-      "username": "Hoàng Trung Hiếu",
+      "username": "Trần Thị Trang",
       "phone": "0348892533",
-      "address": "Phúc Thọ Hoài Đức",
+      "address": "Bột Xuyên Mỹ Đức Thành Phố Hà Nội",
       "phuongthucthanhtoan": "Thanh toán khi nhận hàng",
-      "userId": "2",
-      "trangthai": "Đang chuẩn bị hàng",
+      "userId": "1",
+      "trangthaiId": 1,
       "items": [
         {
-          "nameProduct": "Giày Air Jordan 1 Low  553558-161",
-          "imageProduct": "https://sneakerdaily.vn/wp-content/uploads/2023/10/giay-air-jordan-1-low-bred-toe-553558-161.jpg.webp",
-          "priceProduct": "2990000",
+          "nameProduct": "Giày Adidas Gazelle Nữ - Trắng Xanh Lá",
+          "imageProduct": "https://myshoes.vn/image/cache/catalog/2024_11/adidas/giay-adidas-gazelle-nam-trang-xanh-01-1600x1600.jpg",
+          "priceProduct": "1990000",
           "quantity": 1,
-          "size": "41"
-        },
-        {
-          "nameProduct": "Giày Nike Rival Fly 4 Nữ - Đen Trắng",
-          "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-rival-fly-4-nam-den-trang-01-1600x1600.jpg",
-          "priceProduct": "2690000",
-          "quantity": 3,
           "size": "41"
         }
       ],
-      "total": 11060000,
+      "total": 1990000,
+      "date": 1743603927601,
       "id": 1
     },
     {
-      "username": "hoàng trung hiếu",
-      "phone": "0123456789",
-      "address": "Phúc Thọ Hoài Đức",
-      "phuongthucthanhtoan": "Thanh toán khi nhận hàng",
-      "userId": "2",
-      "trangthai": "Đang chuẩn bị hàng",
-      "items": [
-        {
-          "nameProduct": "Giày Air Jordan 1 Low  553558-161",
-          "imageProduct": "https://sneakerdaily.vn/wp-content/uploads/2023/10/giay-air-jordan-1-low-bred-toe-553558-161.jpg.webp",
-          "priceProduct": "2990000",
-          "quantity": 1,
-          "size": "41"
-        },
-        {
-          "nameProduct": "Giày Nike Rival Fly 4 Nữ - Đen Trắng",
-          "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-rival-fly-4-nam-den-trang-01-1600x1600.jpg",
-          "priceProduct": "2690000",
-          "quantity": 3,
-          "size": "41"
-        }
-      ],
-      "total": 11060000,
-      "id": 2
-    },
-    {
-      "username": "giangtqph52177",
+      "username": "trần quang giang",
       "phone": "0348892533",
-      "address": "Thôn Bột Xuyên, Bột Xuyên, Mỹ Đức, Hà Nội",
-      "phuongthucthanhtoan": "Thanh toán khi nhận hàng",
-      "userId": "2",
-      "trangthai": "Đang chuẩn bị hàng",
-      "items": [
-        {
-          "nameProduct": "Giày Puma Rebound v6 Low Nam - Trắng Xanh",
-          "imageProduct": "https://myshoes.vn/image/cache/catalog/2024_11/puma/giay-puma-rebound-v6-low-nam-trang-xanh-01-1600x1600.jpg",
-          "priceProduct": "1790000",
-          "quantity": 1,
-          "size": "41"
-        }
-      ],
-      "total": 1790000,
-      "id": 3
-    },
-    {
-      "username": "Nguyễn Anh Quốc",
-      "phone": "0123456789",
       "address": "Bột Xuyên Mỹ Đức Thành Phố Hà Nội",
       "phuongthucthanhtoan": "Thanh toán khi nhận hàng",
-      "userId": "2",
-      "trangthai": "Đang chuẩn bị hàng",
+      "userId": "1",
+      "trangthaiId": 1,
       "items": [
         {
           "nameProduct": "Giày Adidas Runfalcon 5 Nam - Trắng",
@@ -379,66 +328,63 @@
         }
       ],
       "total": 1690000,
-      "date": "Mon Mar 31 2025 20:41:55 GMT+0700 (Giờ Đông Dương)",
+      "date": 1743603985819,
+      "id": 2
+    },
+    {
+      "username": "trần quang giang",
+      "phone": "0348892533",
+      "address": "Thôn Bột Xuyên, Bột Xuyên, Mỹ Đức, Hà Nội",
+      "phuongthucthanhtoan": "Thanh toán khi nhận hàng",
+      "userId": "1",
+      "trangthaiId": 1,
+      "items": [
+        {
+          "nameProduct": "Giày Puma Rebound v6 Low Nam - Trắng Xanh",
+          "imageProduct": "https://myshoes.vn/image/cache/catalog/2024_11/puma/giay-puma-rebound-v6-low-nam-trang-xanh-01-1600x1600.jpg",
+          "priceProduct": "1790000",
+          "quantity": 2,
+          "size": "40"
+        },
+        {
+          "nameProduct": "Giày Nike Air Max AP Nữ - Hồng Trắng",
+          "imageProduct": "https://myshoes.vn/image/cache/catalog/2025/nike/giay-nike-air-max-ap-nu-trang-hong-trang-01-1600x1600.jpg",
+          "priceProduct": "2490000",
+          "quantity": 2,
+          "size": "40"
+        },
+        {
+          "nameProduct": "Giày đá bóng Nike Air Zoom Mercurial Vapor ",
+          "imageProduct": "https://product.hstatic.net/1000061481/product/2-01-01-02-02-02-02-02-02-01-02-02-02-01-02-02-01-02-02-02-02-02-02-02_1bd27c0528924292aa9a011524acd502_1024x1024.jpg",
+          "priceProduct": "1990000",
+          "quantity": 2,
+          "size": "41"
+        }
+      ],
+      "total": 12540000,
+      "date": 1743609705217,
+      "id": 3
+    },
+    {
+      "username": "admin",
+      "phone": "0348892533",
+      "address": "Thôn Bột Xuyên, Bột Xuyên, Mỹ Đức, Hà Nội",
+      "phuongthucthanhtoan": "Thanh toán khi nhận hàng",
+      "userId": "1",
+      "trangthaiId": 1,
+      "items": [
+        {
+          "nameProduct": "Giày Lacoste Chaymon 0120 2 Nam - Trắng Navy",
+          "imageProduct": "https://myshoes.vn/image/cache/catalog/2022/lacoste/121/giay-lacoste-chaymon-120-2-nam-trang-navy-01-1600x1600.jpg",
+          "priceProduct": "3290000",
+          "quantity": 1,
+          "size": "41"
+        }
+      ],
+      "total": 3290000,
+      "date": 1743610175482,
       "id": 4
     }
   ],
-  "carts": [
-    {
-      "productId": 14,
-      "nameProduct": "Giày đá bóng Nike Air Zoom Mercurial Vapor ",
-      "price": "1990000",
-      "image": "https://product.hstatic.net/1000061481/product/2-01-01-02-02-02-02-02-02-01-02-02-02-01-02-02-01-02-02-02-02-02-02-02_1bd27c0528924292aa9a011524acd502_1024x1024.jpg",
-      "size": "40",
-      "quantity": 8,
-      "userId": "1",
-      "id": 6
-    },
-    {
-      "productId": 3,
-      "nameProduct": "Giày Adidas Gazelle Nữ - Trắng Xanh Lá",
-      "price": "1990000",
-      "image": "https://myshoes.vn/image/cache/catalog/2024_11/adidas/giay-adidas-gazelle-nam-trang-xanh-01-1600x1600.jpg",
-      "size": "41",
-      "quantity": 6,
-      "userId": "1",
-      "id": 8
-    },
-    {
-      "id": 11
-    },
-    {
-      "id": 12
-    },
-    {
-      "id": 13
-    },
-    {
-      "id": 14
-    },
-    {
-      "id": 15
-    },
-    {
-      "id": 16
-    },
-    {
-      "id": 17
-    },
-    {
-      "id": 18
-    },
-    {
-      "id": 19
-    },
-    {
-      "id": 20
-    },
-    {
-      "id": 21
-    },
-    {
-      "id": 22
-    }
-  ]
+  "carts": []
 }

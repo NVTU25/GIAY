@@ -12,6 +12,7 @@ export interface IOrder {
     quantity: number,
     phuongthucthanhtoan: string,
     phuongthucnhanhang: string,
-    trangthai: string,
+    trangthaiId: string|number,
+    date: Date,
 }
 export type IOrderForm = Omit<IOrder, "id">

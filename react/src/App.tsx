@@ -5,25 +5,31 @@ import "react-toastify/dist/ReactToastify.css";
 
 import Dashboard from "./layout/admin/dashboard";
 import AdminLayout from "./layout/admin";
-import AddCategory from "./components/addcategory";
-import Listcategory from "./components/listcategory";
-import Updatecategory from "./components/updatecategory";
-import AddProduct from "./components/addproduct";
-import Listproduct from "./components/listproducts";
-import UpdateProduct from "./components/updateproduct";
+import AddCategory from "./components/admin/addcategory";
+import Listcategory from "./components/admin/listcategory";
 
-import ListProductClient from "./components/listProductClient";
-import SingupClient from "./components/signup";
-import SigninClient from "./components/signin";
-import DetailProduct from "./components/detailProduct";
-import Cart from "./components/cart";
+import AddProduct from "./components/admin/addproduct";
+import Listproduct from "./components/admin/listproducts";
+import UpdateProduct from "./components/admin/updateproduct";
+
+
+import SigninClient from "./components/client/signin";
+
+import Cart from "./components/client/cart";
 import ClientLayout from "./layout/client";
-import ProductCategpry from "./components/productCategpry";
-import Account from "./components/account";
-import ListUser from "./components/listUser";
-import Checkout from "./components/checkout";
-import OrderSuccess from "./components/orderSuccess";
-import ListOrderUser from "./components/listOrderUser";
+
+import Account from "./components/client/account";
+import ListUser from "./components/admin/listUser";
+
+import OrderSuccess from "./components/client/orderSuccess";
+import ListOrderUser from "./components/client/listOrderUser";
+import Updatecategory from "./components/admin/updatecategory";
+import ListProductClient from "./components/client/listProductClient";
+import SignupClient from "./components/client/signup";
+import DetailProduct from "./components/client/detailProduct";
+import ProductCategpry from "./components/client/productCategpry";
+import Checkout from "./components/client/checkout";
+import ListOrder from "./components/admin/listOrder";
 
 
 
@@ -38,10 +44,11 @@ function App() {
       {path: 'listProduct', element:<Listproduct/>},
       {path: 'updateProduct/:id', element:<UpdateProduct/>},
       {path: 'listUser', element:<ListUser/>},
+      {path: 'listOrder', element:<ListOrder />},
      ]},
      {path: '/', element: <ClientLayout/>, children: [
       {path: '', element: <ListProductClient/> },
-      {path: 'signup', element: <SingupClient/> },
+      {path: 'signup', element: <SignupClient/> },
       {path: 'signin', element: <SigninClient/> },
       {path: 'product/:id', element: <DetailProduct/> },
       {path: 'cart', element: <Cart/>},

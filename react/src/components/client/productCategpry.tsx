@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
-import { IProduct } from '../interface/product'
 import { toast } from 'react-toastify';
 import { Link, useParams } from 'react-router-dom';
 import axios from 'axios';
-import { ICategory } from '../interface/category';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus,faRightLeft, faTruckFast, faAward  } from '@fortawesome/free-solid-svg-icons';
+import { IProduct } from '../../interface/product';
+import { ICategory } from '../../interface/category';
 
 const ProductCategpry = () => {
     const [ products,setProduct ] = useState<IProduct[]>([]);

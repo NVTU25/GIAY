@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
-import { IProduct } from '../interface/product'
 import { toast } from 'react-toastify';
 import axios from 'axios';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
+import { IProduct } from '../../interface/product';
 
 const ListProductClient = () => {
     const [ productNew,setProductNew ] = useState<IProduct[]>([]);

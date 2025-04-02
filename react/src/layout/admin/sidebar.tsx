@@ -113,6 +113,16 @@ const AdminSidebar = () => {
                             </a>
                         </Link>  
                     </li>
+                    <li>
+                        <Link to={'listOrder'}>
+                            <a
+                                className="flex items-center gap-2 p-2 text-gray-700 hover:bg-gray-200 rounded-md transition-all"
+                                href="#"
+                            >
+                                <FontAwesomeIcon icon={faUser} /> Đơn hàng
+                            </a>
+                        </Link>  
+                    </li>
                 </ul>
             </div>
         </div>

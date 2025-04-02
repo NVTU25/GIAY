@@ -1,11 +1,11 @@
-import { IProductForm } from "../interface/product";
+import { IProductForm } from "../../interface/product";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { ICategory } from "../interface/category";
+import { ICategory } from "../../interface/category";
 import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
-import { ITinhtrang } from "../interface/tinhtrang";
+import { ITinhtrang } from "../../interface/tinhtrang";
 
 const UpdateProduct = () => {
     const { register,handleSubmit,formState:{errors},reset } = useForm<IProductForm>();

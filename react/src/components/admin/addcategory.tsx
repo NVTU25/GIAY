@@ -1,5 +1,5 @@
 import { Button, Form, Input, message } from "antd"
-import { ICategoryFrom } from "../interface/category"
+import { ICategoryFrom } from "../../interface/category"
 import axios from "axios"
 import { useMutation } from "@tanstack/react-query";
 import { useNavigate } from "react-router-dom";

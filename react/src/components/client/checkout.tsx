@@ -6,7 +6,8 @@ import { useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form';
 import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { IOrderForm } from '../interface/order';
+import { IOrderForm } from '../../interface/order';
+
 
 
 const Checkout = () => {
@@ -34,12 +35,11 @@ const Checkout = () => {
             const token:any = localStorage.getItem("token");
             const userInfo = jwtDecode(token);
             const userId:any = userInfo.sub;
-
             const newOrder = 
             {
                 ...order, 
                 userId: userId, 
-                trangthai: 'Đang chuẩn bị hàng',  
+                trangthaiId: 1,  
                 items: cart.map(item => ({
                     nameProduct: item.nameProduct,
                     imageProduct: item.image,
@@ -48,7 +48,7 @@ const Checkout = () => {
                     size: item.size
                 })), 
                 total: cart.reduce((total, item) => total + item.price * item.quantity, 0),
-                date: Date()
+                date: Date.now()
             };
             const { data } = await axios.post(`http://localhost:3000/orders`, newOrder);
             toast.success("Đặt hàng thành công!");

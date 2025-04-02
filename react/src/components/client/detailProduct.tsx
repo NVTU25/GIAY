@@ -2,10 +2,10 @@ import axios from 'axios';
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { toast } from 'react-toastify';
-import { IProduct } from '../interface/product';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar,faCartPlus,faPhone,faDollarSign  } from '@fortawesome/free-solid-svg-icons'
 import { jwtDecode } from 'jwt-decode';
+import { IProduct } from '../../interface/product';
 
 
 const DetailProduct = () => {
@@ -62,7 +62,7 @@ const DetailProduct = () => {
     if (!product) return;
     const token = localStorage.getItem("token");
     if (!token) {
-      toast.error("Bạn phải đăng nhập để sử dụng chức năng");
+      toast.error("Đăng nhập để sử dụng chức năng");
       return;
     } 
     const userInfo = jwtDecode(token);
